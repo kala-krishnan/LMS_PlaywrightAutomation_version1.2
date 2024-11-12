@@ -1,0 +1,205 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 359018
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests/features/steps_definitions/loginsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1228711211
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests/features/steps_definitions/loginsteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153863234
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests/features/steps_definitions/loginsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203563408
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "tests/features/01_login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94967
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests/features/steps_definitions/loginsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328537809
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests/features/steps_definitions/loginsteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80753320
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests/features/steps_definitions/loginsteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293030247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests/features/steps_definitions/BatchSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9034515
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests/features/steps_definitions/BatchSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235058393
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests/features/steps_definitions/BatchSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89186604
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Admin enters the valid data to all the mandatory fields and click save button",
+            "match": {
+              "location": "tests/features/steps_definitions/BatchSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 680825907
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Admin should get a succesesful message",
+            "match": {
+              "location": "tests/features/steps_definitions/BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 551436
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-batch-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Batch Feature",
+    "tags": [],
+    "uri": "tests/features/02_Batch.feature"
+  }
+]
