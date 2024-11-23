@@ -1,5 +1,7 @@
 const {loginPage} = require("./loginPages");
 const{batchPage} = require("./batchPages");
+const{programPage} = require("./ProgramPages");
+
  
 
 class POManager{
@@ -9,6 +11,7 @@ class POManager{
         this.page = page;
        this.loginPage = null;;
        this.batchPage = null;;
+       this.programPage = null;
        
     }
     getLoginPage()
@@ -26,6 +29,14 @@ class POManager{
                 this.batchPage=new batchPage(this.page);
             }
         return this.batchPage;
+    }
+    getProgramPage()
+    {
+        if(!this.programPage)
+            {
+                this.programPage=new programPage(this.page);
+            }
+        return this.programPage;
     }
 }
 module.exports={POManager};
