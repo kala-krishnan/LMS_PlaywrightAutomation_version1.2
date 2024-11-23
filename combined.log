@@ -1,20 +1,73 @@
-2024-11-22T19:43:46.065Z [info]: SCENARIO::: Manage Program - Delete Program Validations6afa0d69-61df-451f-919e-25ceaf4345f9
-2024-11-22T19:43:53.130Z [info]: AProgramdddActive  
-2024-11-22T19:43:53.130Z [info]: AProgramd is present..................
-2024-11-22T19:43:53.131Z [info]: Admin clicks on No button
-2024-11-22T19:43:58.340Z [info]: Delete Cancel button is clicked successfully...
-2024-11-22T19:43:58.342Z [info]: SCENARIO::: Manage Program - Delete Program Validations877c7959-e525-40f2-82c0-5b8c8eb69a99
-2024-11-22T19:44:03.404Z [info]: AProgramdddActive  
-2024-11-22T19:44:03.405Z [info]: AProgramd is present..................
-2024-11-22T19:44:03.407Z [info]: Admin Click on X button
-2024-11-22T19:44:08.503Z [info]: Delete Close button is clicked successfully...
-2024-11-22T19:44:08.504Z [info]: SCENARIO::: Manage Program - Delete Program Validations65fed903-f00a-4abc-b33c-1dff930cdbd9
-2024-11-22T19:44:13.487Z [info]: AProgramdddActive  
-2024-11-22T19:44:13.488Z [info]: AProgramd is present..................
-2024-11-22T19:44:13.489Z [info]: Admin succesfully deletes the program
-2024-11-22T19:44:15.660Z [info]: Delete Yes button is clicked successfully...
-2024-11-22T21:25:58.361Z [info]: SCENARIO::: Verify Edit Programe2ad1b5c-31f1-46d4-9034-398519a4660f
-2024-11-22T21:28:01.621Z [info]: SCENARIO::: Verify Edit Programa486a0f4-3f8a-4fe7-8e35-56a447887ea1
-2024-11-22T21:33:31.604Z [info]: SCENARIO::: Verify Edit Program09c10b3a-4430-44f2-b100-37179d23251b
-2024-11-22T21:33:40.184Z [info]: SearchTestOneSearchTestOneActive  
-2024-11-22T21:33:40.186Z [info]: SearchTestOne is present..................
+2024-11-23T19:50:23.949Z [info]: SCENARIO::: Navigation -Verify that Admin is able to navigate to Program module056c9cc2-dbcc-49a2-95e0-785df2ee1338
+2024-11-23T19:50:26.567Z [info]: SCENARIO::: MenuBar - Verify the buttons on the menu bardc6af331-abb7-4b60-ad79-e99f509469f8
+2024-11-23T19:50:27.636Z [info]: Logout menu is visible :true
+2024-11-23T19:50:27.641Z [info]: Program menu is visible :true
+2024-11-23T19:50:27.645Z [info]: Batch menu is visible :true
+2024-11-23T19:50:27.650Z [info]: Class menu is visible :true
+2024-11-23T19:50:27.659Z [info]: Logout menu is visible :true
+2024-11-23T19:50:27.661Z [info]: SCENARIO::: Manage Program Page validation - Verify all the elements present in the Manage Program Pageb2b6ff1c-850c-436f-a486-8ad75dafa57a
+2024-11-23T19:50:28.497Z [info]: Delete button is visible in Manage Program:true
+2024-11-23T19:50:28.501Z [info]: Search button is visible in Manage Program:true
+2024-11-23T19:50:28.530Z [info]: Placeholder value in Search button::::Search...
+2024-11-23T19:50:28.536Z [info]: CheckBox is visible in table header:false
+2024-11-23T19:50:28.541Z [info]: Program Name is visible in table header:true
+2024-11-23T19:50:28.545Z [info]: Program Description is visible in table header:true
+2024-11-23T19:50:28.548Z [info]: Program Status is visible in table header:true
+2024-11-23T19:50:28.553Z [info]: Number of rows in Program Table: 0
+2024-11-23T19:50:28.554Z [error]: Program Table does not have 5 records..
+2024-11-23T19:50:28.558Z [info]: Message showing entries is visible in Manage Program:true
+2024-11-23T19:50:28.561Z [info]: Message showing entries is::::Showing 0 to 0 of 0 entries
+2024-11-23T19:50:28.564Z [info]: Message showing total entries is visible in Manage Program:true
+2024-11-23T19:50:28.567Z [info]: Message showing entries is:::: In total there are 0 programs. 
+2024-11-23T19:50:28.571Z [info]: SCENARIO::: Verify add New Program9fcc2d45-7a6b-4fef-b4f3-7fc4ce7542e6
+2024-11-23T19:50:29.687Z [info]: Program Details
+2024-11-23T19:50:29.880Z [info]: Length of Program Name : 10
+2024-11-23T19:50:29.962Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:29.963Z [info]: 26
+2024-11-23T19:50:30.199Z [info]: Program Created Successfully
+2024-11-23T19:50:34.361Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:50:34.362Z [info]: ProgrammeH is saved successfully..................
+2024-11-23T19:50:34.363Z [info]: SCENARIO::: Verify add New Programe7c73cc8-702a-4f61-8a04-b42555b9e91e
+2024-11-23T19:50:35.445Z [info]: Program Details
+2024-11-23T19:50:35.748Z [info]: Length of Program Name : 1
+2024-11-23T19:50:35.753Z [info]: Error message for program is visible
+2024-11-23T19:50:35.759Z [info]: This field should start with an alphabet, no special char and min 2 char.
+2024-11-23T19:50:35.831Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:35.832Z [info]: 19
+2024-11-23T19:50:40.265Z [info]: 
+2024-11-23T19:50:40.266Z [info]: z is not saved successfully..................
+2024-11-23T19:50:40.267Z [info]: SCENARIO::: Verify add New Program4d72abf8-cf75-4882-bdd1-f12ba166bce4
+2024-11-23T19:50:41.369Z [info]: Program Details
+2024-11-23T19:50:41.666Z [info]: Length of Program Name : 9
+2024-11-23T19:50:41.747Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:41.749Z [info]: 1
+2024-11-23T19:50:41.753Z [info]: Error message for description is visible
+2024-11-23T19:50:41.757Z [info]: This field should start with an alphabet and min 2 char.
+2024-11-23T19:50:46.181Z [info]: 
+2024-11-23T19:50:46.182Z [info]: ProgramPP is not saved successfully..................
+2024-11-23T19:50:46.183Z [info]: SCENARIO::: Verify add New Program9bbc96a5-528d-4961-869e-71ec8c164bac
+2024-11-23T19:50:47.299Z [info]: Program Details
+2024-11-23T19:50:47.599Z [info]: Length of Program Name : 10
+2024-11-23T19:50:47.604Z [info]: Error message for program is visible
+2024-11-23T19:50:47.607Z [info]: Program name is already exist.
+2024-11-23T19:50:47.677Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:47.677Z [info]: 2
+2024-11-23T19:50:52.099Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:50:52.099Z [info]: ProgrammeH is saved successfully..................
+2024-11-23T19:50:52.100Z [info]: SCENARIO::: Verify Edit Program8d83fcc2-cc29-4616-99ae-a792d8092336
+2024-11-23T19:50:57.935Z [info]: SCENARIO::: Manage Program - Delete Program Validationsac77d28d-7874-41f2-acb3-db0665a040f3
+2024-11-23T19:51:02.736Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:51:02.737Z [info]: ProgrammeH is present..................
+2024-11-23T19:51:02.738Z [info]: Admin clicks on No button
+2024-11-23T19:51:07.863Z [info]: Delete Cancel button is clicked successfully...
+2024-11-23T19:51:07.865Z [info]: SCENARIO::: Manage Program - Delete Program Validationsc5036ad8-fdf3-4f2d-a555-8ca9be4da37e
+2024-11-23T19:51:12.655Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:51:12.655Z [info]: ProgrammeH is present..................
+2024-11-23T19:51:12.656Z [info]: Admin Click on X button
+2024-11-23T19:51:17.726Z [info]: Delete Close button is clicked successfully...
+2024-11-23T19:51:17.727Z [info]: SCENARIO::: Manage Program - Delete Program Validations2f00f45c-bd59-4beb-9973-85bb55c93bae
+2024-11-23T19:51:22.490Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:51:22.491Z [info]: ProgrammeH is present..................
+2024-11-23T19:51:22.492Z [info]: Admin succesfully deletes the program
+2024-11-23T19:51:24.643Z [info]: Delete Yes button is clicked successfully...
+2024-11-23T20:01:00.999Z [info]: SCENARIO::: Verify Edit Program20b4e937-e1b9-4329-8ea1-cd31b93a36bb

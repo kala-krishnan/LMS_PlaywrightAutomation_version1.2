@@ -10,6 +10,8 @@ Then('the user navigates to the Program page and get the title for verification'
 
   await this.programPag.clickProgramMenu();
   logger.info("Clicking on Program Link.............")
+  await this.page.keyboard.press('Escape');//Newly added
+
   //await this.page.getByRole('button', { name: 'Program' }).click();
   //await expect(this.page.getByText('Manage Program')).toHaveText('Manage Program');
   
@@ -29,7 +31,7 @@ Given('Admin is on Program module', async function () {
 });
 
 When('Admin clicks on New Program under the Program menu bar', async function () {
- // await this.page.getByRole('button', { name: 'Program' }).click();
+  await this.page.getByRole('button', { name: 'Program' }).click();
   await this.page.getByRole('menuitem', { name: 'Add New Program' }).click();
 
 });
@@ -44,7 +46,7 @@ When('Admin clicks on New Program under the Program menu bar', async function ()
 
   });
 
-  When('Admin enters {string},{string} and status and clicks on Save button',   {timeout: 2 * 5000},async function (ProgName, ProgDesc) {
+  When('Admin enters {string},{string} and status and clicks on Save button for functionality {string}',   {timeout: 2 * 5000},async function (ProgName, ProgDesc,Functionality) {
     await this.page.getByLabel('Name*').click();
     await this.page.getByLabel('Name*').fill(ProgName);
 
@@ -53,7 +55,7 @@ When('Admin clicks on New Program under the Program menu bar', async function ()
     // Check if the minimum char is two.
     //logger.info("Length of ProgramName:")
     logger.info ("Length of Program Name : "+ProgName.length);
-    if(ProgName.length<2)
+    if(ProgName.length<2 || Functionality==="Invalid-already available")
     {
     isVisible_progErr = await this.page.locator("//small[@class='p-invalid ng-star-inserted']").isVisible();
     if (isVisible_progErr) {
@@ -104,7 +106,7 @@ else
     await this.page.getByPlaceholder('Search...').fill(ProgName);
     await this.page.getByPlaceholder('Search...').press('Enter');
 
-    await this.page.waitForTimeout(8000);
+    await this.page.waitForTimeout(4000);
     
     let tblVal = await this.page.locator("//tbody[@class='p-datatable-tbody']").textContent();
     logger.info(tblVal);
@@ -182,7 +184,13 @@ else
 
     });
     //-------------------@EditProgram------------------------
-    When('Admin edits {string},{string} and status and clicks on Save button', function (string, string2) {
-      // Write code here that turns the phrase above into concrete actions
-      return 'pending';
+    
+    When('Admin edits {string},{string},{string} and status and clicks on Save button for functionality {string}', async function (ProgramName, editProgramName, editProgramDescription,Functionality) {
+      await this.programPag.getListOfElements(ProgramName);
+      await this.programPag.enterProgramName(editProgramName)
+      await this.programPag.enterProgramDesc(editProgramDescription)
+      await this.programPag.clickSaveProgram()
+
+
     });
+    

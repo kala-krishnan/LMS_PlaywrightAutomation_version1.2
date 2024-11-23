@@ -6,7 +6,7 @@
         "description": "",
         "id": "program-feature;verify-edit-program",
         "keyword": "Scenario Outline",
-        "line": 64,
+        "line": 52,
         "name": "Verify Edit Program",
         "steps": [
           {
@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12763599
+              "duration": 11143100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2787228998
+              "duration": 2237655299
             }
           },
           {
@@ -40,59 +40,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 418676199
+              "duration": 367446300
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 57,
+            "line": 47,
             "name": "Admin is on Program module",
             "match": {
-              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:19"
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 1004750598
+              "duration": 388809099
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 58,
-            "name": "The Admin searches for a program \"SearchTestOne\"",
+            "line": 48,
+            "name": "Admin edits \"ProgrammeA\",\"Edited ProgrammeFProgramName\",\"edited ProgrammeF for beginner level\" and status and clicks on Save button for functionality \"Valid\"",
             "match": {
-              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:163"
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:188"
             },
             "result": {
               "status": "passed",
-              "duration": 4337923198
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 59,
-            "name": "Admin edits \"SearchTestOne\",\"program for beginner level\" and status and clicks on Save button",
-            "match": {
-              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:185"
-            },
-            "result": {
-              "status": "pending",
-              "duration": 536098
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 61,
-            "name": "The program \"SearchTestOne\" is saved successfully",
-            "match": {
-              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:100"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "duration": 1224295200
             }
           }
         ],
@@ -103,7 +77,7 @@
           },
           {
             "name": "@EditProgram",
-            "line": 55
+            "line": 45
           }
         ],
         "type": "scenario"
