@@ -2,6 +2,7 @@
 const { devices } = require('@playwright/test');
 const { on } = require('events');
 
+
 const config ={
 testDir: './tests',
 timeout: 30 * 1000,
@@ -9,7 +10,15 @@ expect: {
 
   timeout: 5000
 },
-reporter: 'html',
+reporter: [
+  ["line"],
+  [
+    "allure-playwright",
+    {
+      resultsDir: "allure-results",
+    },
+  ],
+],
 
 use:
 {

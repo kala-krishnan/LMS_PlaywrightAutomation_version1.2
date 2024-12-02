@@ -2,22 +2,32 @@
     "default": {
         "dryrun":true,
         "formatOptions":{
-            "snipprtInterface": "async=await"
-
-
+            "snippetInterface": "async=await",
+             "resultsDir": "allure-results"
         },
+     
+          
+            
+        
     
     "paths":["tests/features/*.feature"],
     "require":["tests/features/steps_definitions/*.js",
-    "tests/features/support/Hooks.js",
-    "tests/page_Objects/*.js"],
+    "tests/features/support/hooks*.js",
+    "tests/page_Objects/*.js",
+    "tests/Utils/CommonUtils.js"
+],
 "format": [
-    [ "html",
-    "cucumber-report.html"
+    ["allure-cucumberjs/reporter"],
+    
+    ["json",
+    "reports/cucumber_report.json"
     ],
-    "summary",
-    "progress-bar",
-    "json:./cucumber-report.json"
+    ["html",
+    "reports/cucumber_report.html"
+    ],
+    ["junit",
+    "reports/cucumber_report.xml"
+    ]
     ]
     
 }

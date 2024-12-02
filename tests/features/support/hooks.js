@@ -2,24 +2,31 @@ const {Before,After, AfterStep, Status, BeforeAll, AfterAll}=require('@cucumber/
 const path = require('path');
 const{chromium} = require('playwright');
 const {POManager} = require('../../page_Objects/POManager');
+//const{CommonUtils} = require('../../Utils/CommonUtils.js');
 
 let browser;
 let context;
 let page;
-let pomanage;
+//let pomanage;
 
 BeforeAll(async function (){
-    browser = await chromium.launch({headless : false});
-    context = await browser.newContext();
-     page = await context.newPage();
-     pomanage = new POManager(page);
-
+    try {
+        browser = await chromium.launch({headless : false});
+        context = await browser.newContext();
+        page = await context.newPage();
+        
+    } catch (error) {
+        console.error("Error in BeforeAll hook:", error);
+        throw error; 
+    }
     
 });
 Before(async function () {
     
     this.page = page;
-    this.pomanage = pomanage;
+    this.pomanage = new POManager(this.page);
+   // this.CommonUtils = new CommonUtils(this.page);
+   // this.pomanage = pomanage;
 });
 
 AfterAll(async function()

@@ -10,7 +10,7 @@ class CommonUtils
     }
 
 
-async getListOfElements(batchValue) {
+async getListOfElements(batchValue,option) {
   
         const rowsCountText = await this.page.locator("//div[@class='p-d-flex p-ai-center p-jc-between ng-star-inserted']").textContent(); 
   console.log("text is ",rowsCountText);     
@@ -90,7 +90,8 @@ async getListOfElements(batchValue) {
          
 
 
-
+         if(option==='Edit')
+         {
          await this.page.locator("//tr[@class='ng-star-inserted']/td[2][text()='"+batchValue+"']/following-sibling::td/div/span/button/span[@class='p-button-icon pi pi-pencil']").waitFor
           ({
                   state: 'visible', // Wait until the element is visible
@@ -99,6 +100,18 @@ async getListOfElements(batchValue) {
 
          await this.page.locator("//tr[@class='ng-star-inserted']/td[2][text()='"+batchValue+"']/following-sibling::td/div/span/button/span[@class='p-button-icon pi pi-pencil']").hover();
           await this.page.locator("//tr[@class='ng-star-inserted']/td[2][text()='"+batchValue+"']/following-sibling::td/div/span/button/span[@class='p-button-icon pi pi-pencil']").click();
+        }
+        else if(option === 'Delete'){
+          await this.page.locator("//tr[@class='ng-star-inserted']/td[2][text()='"+batchValue+"']/following-sibling::td/div/span/button/span[@class='p-button-icon pi pi-trash']").waitFor
+          ({
+                  state: 'visible', // Wait until the element is visible
+                  timeout: 5000 
+          })
+
+         await this.page.locator("//tr[@class='ng-star-inserted']/td[2][text()='"+batchValue+"']/following-sibling::td/div/span/button/span[@class='p-button-icon pi pi-trash']").hover();
+          await this.page.locator("//tr[@class='ng-star-inserted']/td[2][text()='"+batchValue+"']/following-sibling::td/div/span/button/span[@class='p-button-icon pi pi-trash']").click();
+
+        }
         }
 }
 
