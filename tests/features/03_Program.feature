@@ -36,10 +36,10 @@ Scenario Outline: Verify add New Program
  Then The program "<ProgramName>" is saved successfully
 Examples: 
 |Functionality|ProgramName| ProgramDescription|
-|Valid |ProgrammeH| program for beginner level|
+|Valid |ProA| program for beginner level|
 |Invalid-ProgName|z|Program Description|
 |Invalid-ProgDesc|ProgramPP|z|
-|Invalid-already available|ProgrammeH|dd|
+|Invalid-already available|ProA|dd|
 
 
 @EditProgram
@@ -49,7 +49,7 @@ Scenario Outline: Verify Edit Program
  
 Examples: 
 |Functionality|ProgramName| editProgramName|editProgramDescription|
-|Valid|ProgrammeA| Edited ProgrammeA|edited ProgrammeF for beginner level|
+|Valid|ProA| Edited ProgrammeA|edited ProgrammeF for beginner level|
 
  @DeleteProgram
  Scenario Outline: Manage Program - Delete Program Validations
@@ -58,8 +58,8 @@ Examples:
   Then The Admin does the validations in delete program functionality "<Functionality>"
   Examples:
   |Functionality|ProgramName|
-  |Admin clicks on No button|ProgrammeH|
-  |Admin Click on X button|ProgrammeH|
-  |Admin succesfully deletes the program|ProgrammeH|
+  |Admin clicks on No button|ProA|
+  |Admin Click on X button|ProA|
+  |Admin succesfully deletes the program|ProA|
 
 
