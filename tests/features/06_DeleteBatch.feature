@@ -15,6 +15,6 @@ Scenario: Validate all the fields exist in pop up
 Given Admin is on the Dashboard page
 When Admin clicks Batch on the Menu from the header
 When the admin able to click Delete button for the batchName
-|DataAnalyst1267|
+|DataAnalyst1277|
 Then the batch needs to be deleted
 
