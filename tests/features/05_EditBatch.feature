@@ -15,7 +15,7 @@ Scenario: Validate all the fields exist in pop up
 Given Admin is on the Dashboard page
 When Admin clicks Batch on the Menu from the header
 When the admin able to click edit button for the batchName
-|DataAnalyst1277|
+|DataAnalyst1377|
 Then the admin should see the pop up window for edit Batch
 
 Then the program name and batch name should be in non-editable mode
@@ -25,7 +25,7 @@ Scenario Outline: Validate all the fields exist in pop up
 Given Admin is on the Dashboard page
 When Admin clicks Batch on the Menu from the header
 When the admin able to click edit button for the batchName
-|DataAnalyst1277|
+|DataAnalyst1377|
 When the admin enters "<BatchDesc>","<Status>","<NoofClasses>" and click Save button in Batch module
 Then the admin should see the error message "<ErrorMessage>"
 
