@@ -4,9 +4,579 @@
     "elements": [
       {
         "description": "",
-        "id": "login-feature;login-page-verification",
+        "id": "login-feature;verify-admin-is-able-to-land-on-login-page",
         "keyword": "Scenario",
         "line": 4,
+        "name": "Verify Admin is able to land on login page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 917500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221536998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2610893400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Admin should land on the login page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:29"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10308649299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-admin-is-able-to-land-on-home-page-with-invalid-url",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify Admin is able to land on home page with invalid URL",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 260300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173269799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Admin gives the invalid LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185564099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Admin should recieve application error",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:37"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10324079399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-for-broken-link",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify for broken link",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 267100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152718998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Admin gives the broken link",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 444090099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "HTTP response >= 400.",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347393999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-the-text-spelling-in-the-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify the text spelling in the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 120900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150161200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303773999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Admin should see correct spellings in all fields",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242171999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-application-name",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify application name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178077199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325196300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Admin should see  LMS - Learning Management System",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10323170598,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-company-name",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify company name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 624400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175232499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 403508699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should see company name below the app name",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362736799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;validate-sign-in-content",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Validate sign in content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 313699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151183400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 368973199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Admin should see \"Please login to LMS application\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159386399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-text-field-present",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify text field present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 181799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165682699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344522499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Admin should see two text field",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148044000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-login-button-action-through-keyboard",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "verify login button action through keyboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "Admin launch the browser and enters LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389870799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "Admin enters valid credentials and clicks login through keyboard",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259905698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Admin should land on dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128852899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 62,
         "name": "Login Page verification",
         "steps": [
           {
@@ -14,50 +584,313 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 359018
+              "duration": 475899
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 54,
             "name": "the user is in Login Page",
             "match": {
-              "location": "tests/features/steps_definitions/loginsteps.js:5"
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:64"
             },
             "result": {
               "status": "passed",
-              "duration": 1228711211
+              "duration": 316606699
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser1@gmail.com",
+                      "Playwright@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
-            "line": 6,
-            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
             "match": {
-              "location": "tests/features/steps_definitions/loginsteps.js:11"
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:70"
             },
             "result": {
               "status": "passed",
-              "duration": 153863234
+              "duration": 276422299
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "line": 58,
+            "name": "Admin should see the message",
             "match": {
-              "location": "tests/features/steps_definitions/loginsteps.js:16"
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:82"
             },
             "result": {
               "status": "passed",
-              "duration": 203563408
+              "duration": 321443098
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 63,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 269500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347814999
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser@gmail.com",
+                      "Playwright@123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367019800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321677499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 64,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 246199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390503399
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser12@gmail.com",
+                      "Playwrigh!t@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287508098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355829500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 65,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 267800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 424085699
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser@gmail.com",
+                      "Playwright@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268030700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:82"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10273813499,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
@@ -65,8 +898,13 @@
     "line": 2,
     "keyword": "Feature",
     "name": "Login Feature",
-    "tags": [],
-    "uri": "tests/features/01_login.feature"
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\01_login.feature"
   },
   {
     "description": "",
@@ -83,20 +921,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 94967
+              "duration": 409400
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "the user is in Login Page",
+            "name": "the user is in the Login Page of LMS",
             "match": {
-              "location": "tests/features/steps_definitions/loginsteps.js:5"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 328537809
+              "duration": 389184199
             }
           },
           {
@@ -105,11 +943,11 @@
             "line": 5,
             "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
             "match": {
-              "location": "tests/features/steps_definitions/loginsteps.js:11"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 80753320
+              "duration": 230600200
             }
           },
           {
@@ -118,11 +956,11 @@
             "line": 6,
             "name": "the user navigates to the Dashboard page and get the title for verification",
             "match": {
-              "location": "tests/features/steps_definitions/loginsteps.js:16"
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 293030247
+              "duration": 143554799
             }
           },
           {
@@ -131,11 +969,11 @@
             "line": 9,
             "name": "Admin is on the Dashboard page",
             "match": {
-              "location": "tests/features/steps_definitions/BatchSteps.js:4"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 9034515
+              "duration": 542796699
             }
           },
           {
@@ -144,11 +982,11 @@
             "line": 10,
             "name": "Admin clicks Batch on the Menu from the header",
             "match": {
-              "location": "tests/features/steps_definitions/BatchSteps.js:9"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 235058393
+              "duration": 425667598
             }
           },
           {
@@ -157,11 +995,11 @@
             "line": 11,
             "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
             "match": {
-              "location": "tests/features/steps_definitions/BatchSteps.js:15"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 89186604
+              "duration": 644734000
             }
           },
           {
@@ -170,11 +1008,11 @@
             "line": 12,
             "name": "Admin enters the valid data to all the mandatory fields and click save button",
             "match": {
-              "location": "tests/features/steps_definitions/BatchSteps.js:24"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 680825907
+              "duration": 589068799
             }
           },
           {
@@ -183,11 +1021,11 @@
             "line": 13,
             "name": "Admin should get a succesesful message",
             "match": {
-              "location": "tests/features/steps_definitions/BatchSteps.js:27"
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 551436
+              "duration": 145793699
             }
           }
         ],
@@ -200,6 +1038,6 @@
     "keyword": "Feature",
     "name": "Add Batch Feature",
     "tags": [],
-    "uri": "tests/features/02_Batch.feature"
+    "uri": "tests\\features\\03_Batch.feature"
   }
 ]

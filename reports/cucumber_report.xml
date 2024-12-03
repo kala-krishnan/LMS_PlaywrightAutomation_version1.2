@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+<testsuite failures="32" skipped="0" name="cucumber-js" time="154.92112617700002" tests="47">
+  <testcase classname="Login Feature" name="Verify Admin is able to land on login page" time="13.017726198">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 10000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 10000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the correct LMS portal URL...............................passed
+Then Admin should land on the login page..................................failed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Verify Admin is able to land on home page with invalid URL" time="10.608889998999999">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 10000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 10000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the invalid LMS portal URL...............................passed
+Then Admin should recieve application error...............................failed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Verify for broken link" time="0.993346796">
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the broken link..........................................passed
+Then HTTP response >= 400.................................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Verify the text spelling in the page" time="0.739906495">
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the correct LMS portal URL...............................passed
+Then Admin should see correct spellings in all fields.....................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Verify application name" time="0.5369367970000001">
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the correct LMS portal URL...............................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Verify company name" time="0.7737787939999999">
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the correct LMS portal URL...............................passed
+Then Admin should see company name below the app name.....................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Validate sign in content" time="0.450361797">
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the correct LMS portal URL...............................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Verify text field present" time="0.6738606960000001">
+    <system-out><![CDATA[Given Admin launch the browser............................................passed
+When Admin gives the correct LMS portal URL...............................passed
+Then Admin should see two text field......................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="verify login button action through keyboard" time="0.741520097">
+    <system-out><![CDATA[Given Admin launch the browser and enters LMS portal URL..................passed
+When Admin enters valid credentials and clicks login through keyboard.....passed
+Then Admin should land on dashboard page..................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Login Page verification" time="0.882788696">
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the Credentials and click login button...............passed
+Then Admin should see the message.........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Login Page verification [1]" time="0.934642595">
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the Credentials and click login button...............passed
+Then Admin should see the message.........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Login Page verification [2]" time="0.9155382969999999">
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the Credentials and click login button...............passed
+Then Admin should see the message.........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Login Feature" name="Login Page verification [3]" time="10.869640899">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 10000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 10000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the Credentials and click login button...............passed
+Then Admin should see the message.........................................failed]]></system-out>
+  </testcase>
+  <testcase classname="Dashboard Page" name="Verify after login Admin lands on dashboard page" time="0.800479696">
+    <system-out><![CDATA[Given Admin gives correct LMS portal......................................passed
+When Admin enter valid credentials and clicks login button................passed
+Then Admin should see dashboard...........................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Dashboard Page" name="Validate navigation bar order 1st program" time="0.756511398">
+    <system-out><![CDATA[Given Admin gives correct LMS portal......................................passed
+When Admin enter valid credentials and clicks login button................passed
+Then Admin must see "Program" name  in this "first" place.................passed]]></system-out>
+  </testcase>
+  <testcase classname="Dashboard Page" name="Validate navigation bar order 2nd batch" time="0.722455398">
+    <system-out><![CDATA[Given Admin gives correct LMS portal......................................passed
+When Admin enter valid credentials and clicks login button................passed
+Then Admin able to see "Batch" name  in this "second" place...............passed]]></system-out>
+  </testcase>
+  <testcase classname="Dashboard Page" name="Validate navigation bar order  3rd class" time="0.723621895">
+    <system-out><![CDATA[Given Admin gives correct LMS portal......................................passed
+When Admin enter valid credentials and clicks login button................passed
+Then Admin should see the "Class" name  in this "third" place.............passed]]></system-out>
+  </testcase>
+  <testcase classname="Dashboard Page" name="Validate navigation bar order 4th logout" time="0.707085396">
+    <system-out><![CDATA[Given Admin gives correct LMS portal......................................passed
+When Admin enter valid credentials and clicks login button................passed
+Then Admin  see "Logout" name  in this "fourth" place.....................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Navigation -Verify that Admin is able to navigate to Program module" time="0.0002372">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given The Admin is on dashboard page after Login.........................skipped
+When The Admin clicks "Program" on the navigation bar....................skipped
+Then The Admin should be navigated to Program module.....................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="MenuBar - Verify the buttons on the menu bar" time="0.000192399">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given The Admin is on dashboard page after Login.........................skipped
+When The Admin clicks "Program" on the navigation bar....................skipped
+Then Admin should see Logout in menu bar.................................skipped
+Then Admin should see the module names as in order.......................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program Page validation - Verify all the elements present in the Manage Program Page" time="0.000196799">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given The Admin is on dashboard page after Login.........................skipped
+When The Admin clicks "Program" on the navigation bar....................skipped
+Then The Admin validates all the elements present in the Manage Progra...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program" time="0.0001856">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When Admin clicks on New Program under the Program menu bar..............skipped
+Then Admin should see window titled "Program Details"....................skipped
+When Admin enters "ProC","program for beginner level" and status and c...skipped
+Then The program "ProC" is saved successfully............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program [1]" time="0.000211199">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When Admin clicks on New Program under the Program menu bar..............skipped
+Then Admin should see window titled "Program Details"....................skipped
+When Admin enters "z","Program Description" and status and clicks on S...skipped
+Then The program "z" is saved successfully...............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program [2]" time="0.0001949">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When Admin clicks on New Program under the Program menu bar..............skipped
+Then Admin should see window titled "Program Details"....................skipped
+When Admin enters "ProgramPP","z" and status and clicks on Save button...skipped
+Then The program "ProgramPP" is saved successfully.......................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program [3]" time="0.000183">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When Admin clicks on New Program under the Program menu bar..............skipped
+Then Admin should see window titled "Program Details"....................skipped
+When Admin enters "ProC","dd" and status and clicks on Save button for...skipped
+Then The program "ProC" is saved successfully............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify Edit Program" time="0.0001771">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When Admin edits "ProC","Edited ProgrammeA","edited ProgrammeF for beg...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program - Delete Program Validations" time="0.0002016">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When The Admin searches for a program "ProC".............................skipped
+Then The Admin does the validations in delete program functionality "A...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program - Delete Program Validations [1]" time="0.0001983">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When The Admin searches for a program "ProC".............................skipped
+Then The Admin does the validations in delete program functionality "A...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program - Delete Program Validations [2]" time="0.0001849">
+    <failure/>
+    <system-out><![CDATA[Given the user in Login Page...........................................undefined
+When the user enters the username "playwrightuser@gmail.com" and "Play...skipped
+Given Admin is on Program module.........................................skipped
+When The Admin searches for a program "ProC".............................skipped
+Then The Admin does the validations in delete program functionality "A...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Validate all the fields exist in pop up" time="5.980261397">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+Then Admin should see the Batch Details pop up window....................skipped
+Then the popup should display the following fields:......................skipped
+Then Validate batch name prefix box is not editable......................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully" time="6.010336795">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "", "1277","Developer","Active","12" and click save ...skipped
+Then Admin should a message "Program Name is required."..................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully [1]" time="6.092178596999999">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "DataAnalyst", "","Developer","Active","12" and clic...skipped
+Then Admin should a message "Batch Name is required."....................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully [2]" time="6.117256794999999">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "DataAnalyst", "1277","","Active","12" and click sav...skipped
+Then Admin should a message "Batch Description is required.".............skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully [3]" time="6.019439297">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "DataAnalyst", "1277","Developer","Active","" and cl...skipped
+Then Admin should a message "Number of classes is required.".............skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully [4]" time="5.935937996000001">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "DataAnalyst", "#$#$","Developer","Active","12" and ...skipped
+Then Admin should a message "This field accept only numbers and max 5 ...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully [5]" time="5.637931397">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...failed
+Then the user navigates to the Dashboard page and get the title for ve...skipped
+Given Admin is on the Dashboard page.....................................skipped
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "DataAnalyst", "1277","12####","Active","12" and cli...skipped
+Then Admin should a message "This field should start with an alphabet ...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully [6]" time="6.044531495">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in the Login Page.......................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When Admin clicks on "Add New batch" under the "batch" menu bar..........skipped
+When Admin enters "DataAnalyst", "1277","Developer","Active","12" and ...skipped
+Then Admin should a message "Batch Created Successfully".................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate the admin lands on the manage batch page" time="5.645114099">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...failed
+Then the user navigates to the Dashboard page and get the title for ve...skipped
+Given Admin is on the Dashboard page.....................................skipped
+When Admin clicks Batch on the Menu from the header......................skipped
+Then Admin should be in the Manage Batch Page............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up" time="6.071074097">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When the admin able to click edit button for the batchName...............skipped
+Then the admin should see the pop up window for edit Batch...............skipped
+Then the program name and batch name should be in non-editable mode......skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up [1]" time="5.632166399">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...failed
+Then the user navigates to the Dashboard page and get the title for ve...skipped
+Given Admin is on the Dashboard page.....................................skipped
+When Admin clicks Batch on the Menu from the header......................skipped
+When the admin able to click edit button for the batchName...............skipped
+When the admin enters "","Active","12" and click Save button in Batch ...skipped
+Then the admin should see the error message "Batch Description is requ...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up [2]" time="6.076215694">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When the admin able to click edit button for the batchName...............skipped
+When the admin enters "Developer","Active","" and click Save button in...skipped
+Then the admin should see the error message "Number of classes is requ...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up [3]" time="5.985339596">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When the admin able to click edit button for the batchName...............skipped
+When the admin enters "12####","Active","12" and click Save button in ...skipped
+Then the admin should see the error message "This field should start w...skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up [4]" time="5.985274796">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+When the admin able to click edit button for the batchName...............skipped
+When the admin enters "Developer","Active","12" and click Save button ...skipped
+Then the admin should see the error message "batch Updated"..............skipped]]></system-out>
+  </testcase>
+  <testcase classname="Delete Batch Feature" name="Validate the admin lands on the manage batch page" time="6.003474297">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...passed
+Then the user navigates to the Dashboard page and get the title for ver...passed
+Given Admin is on the Dashboard page......................................failed
+When Admin clicks Batch on the Menu from the header......................skipped
+Then Admin should be in the Manage Batch Page............................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Delete Batch Feature" name="Validate all the fields exist in pop up" time="5.649251399">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 5000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page...........................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playw...failed
+Then the user navigates to the Dashboard page and get the title for ve...skipped
+Given Admin is on the Dashboard page.....................................skipped
+When Admin clicks Batch on the Menu from the header......................skipped
+When the admin able to click Delete button for the batchName.............skipped
+Then the batch needs to be deleted.......................................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Validation on Logout button" name="Verify logout function" time="7.207451299000001">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 6000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 6000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given Admin is logged into the appilcation................................passed
+And Admin is in dashboard page............................................passed
+When Admin clicks on the logout in the menu bar...........................passed
+Then Admin should be redirected to login page.............................failed]]></system-out>
+  </testcase>
+  <testcase classname="Validation on Logout button" name="Verify back button function" time="6.976635796">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 6000 milliseconds"><![CDATA[Error: function timed out, ensure the promise resolves within 6000 milliseconds
+    at Timeout.<anonymous> (C:\LMS_PlaywrightAutomation_version1.2\node_modules\@cucumber\cucumber\lib\time.js:54:20)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)]]></failure>
+    <system-out><![CDATA[Given Admin is logged out of the application..............................passed
+When Admin clicks  browser back button....................................passed
+Then Admin should receive error message...................................failed]]></system-out>
+  </testcase>
+</testsuite>

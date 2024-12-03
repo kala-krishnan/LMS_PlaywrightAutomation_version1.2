@@ -1,0 +1,4615 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;verify-admin-is-able-to-land-on-login-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify Admin is able to land on login page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 775999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205264700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2490047300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Admin should land on the login page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10321638199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-admin-is-able-to-land-on-home-page-with-invalid-url",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify Admin is able to land on home page with invalid URL",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 255400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147136400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Admin gives the invalid LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163176900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Admin should recieve application error",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:38"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10298321299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-for-broken-link",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify for broken link",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143128600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Admin gives the broken link",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505919398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "HTTP response >= 400.",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344014299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-the-text-spelling-in-the-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify the text spelling in the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 279799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138875099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358979099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Admin should see correct spellings in all fields",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241772498
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-application-name",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify application name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 122400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137616798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399197599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-company-name",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify company name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139555198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290101299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should see company name below the app name",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343737498
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;validate-sign-in-content",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Validate sign in content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 190699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155834200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294336898
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-text-field-present",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify text field present",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 132699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "Admin launch the browser",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156081999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "Admin gives the correct LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348496599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Admin should see two text field",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169149399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;verify-login-button-action-through-keyboard",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "verify login button action through keyboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 171699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "Admin launch the browser and enters LMS portal URL",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 327564300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "Admin enters valid credentials and clicks login through keyboard",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275560899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Admin should land on dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138223199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 62,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 237700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337196299
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser1@gmail.com",
+                      "Playwright@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236749499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308605198
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 63,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 265200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346023599
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser@gmail.com",
+                      "Playwright@123"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265154698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323199098
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 64,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 233000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354750399
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser12@gmail.com",
+                      "Playwrigh!t@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247222699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313332199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-page-verification",
+        "keyword": "Scenario Outline",
+        "line": 65,
+        "name": "Login Page verification",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 446600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339045400
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "id",
+                      "pwd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "playwrightuser@gmail.com",
+                      "Playwright@1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the user enters the Credentials and click login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278843700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Admin should see the message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:83"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10251305199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\01_login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-page;verify-after-login-admin-lands-on-dashboard-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify after login Admin lands on dashboard page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 221300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin gives correct LMS portal",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392114399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Admin enter valid credentials and clicks login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287110299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Admin should see dashboard",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121033698
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-page;validate-navigation-bar-order-1st-program",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Validate navigation bar order 1st program",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin gives correct LMS portal",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 369006100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Admin enter valid credentials and clicks login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256995000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Admin must see \"Program\" name  in this \"first\" place",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130378599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-page;validate-navigation-bar-order-2nd-batch",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate navigation bar order 2nd batch",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 154599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin gives correct LMS portal",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336868800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Admin enter valid credentials and clicks login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263803200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Admin able to see \"Batch\" name  in this \"second\" place",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121628799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-page;validate-navigation-bar-order--3rd-class",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validate navigation bar order  3rd class",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 205999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin gives correct LMS portal",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360587498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Admin enter valid credentials and clicks login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241199999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Admin should see the \"Class\" name  in this \"third\" place",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121628399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-page;validate-navigation-bar-order-4th-logout",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Validate navigation bar order 4th logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin gives correct LMS portal",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328614299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Admin enter valid credentials and clicks login button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263126299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Admin  see \"Logout\" name  in this \"fourth\" place",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\dashboardsteps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115175999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Dashboard Page",
+    "tags": [
+      {
+        "name": "@dashboard",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\02_Dashboard.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "program-feature;navigation--verify-that-admin-is-able-to-navigate-to-program-module",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Navigation -Verify that Admin is able to navigate to Program module",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 237200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "The Admin is on dashboard page after Login",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The Admin clicks \"Program\" on the navigation bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The Admin should be navigated to Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:147"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@TC1",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;menubar---verify-the-buttons-on-the-menu-bar",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "MenuBar - Verify the buttons on the menu bar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 192399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "The Admin is on dashboard page after Login",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "The Admin clicks \"Program\" on the navigation bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Admin should see Logout in menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:156"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Admin should see the module names as in order",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:164"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@TC2",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;manage-program-page-validation---verify-all-the-elements-present-in-the-manage-program-page",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Manage Program Page validation - Verify all the elements present in the Manage Program Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 196799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "The Admin is on dashboard page after Login",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:130"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "The Admin clicks \"Program\" on the navigation bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:139"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "The Admin validates all the elements present in the Manage Program Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:169"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@TC3",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;verify-add-new-program",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Verify add New Program",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 185600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Admin clicks on New Program under the Program menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Admin should see window titled \"Program Details\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin enters \"ProC\",\"program for beginner level\" and status and clicks on Save button for functionality \"Valid\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "The program \"ProC\" is saved successfully",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@AddProgram",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;verify-add-new-program",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Verify add New Program",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 211199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Admin clicks on New Program under the Program menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Admin should see window titled \"Program Details\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin enters \"z\",\"Program Description\" and status and clicks on Save button for functionality \"Invalid-ProgName\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "The program \"z\" is saved successfully",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@AddProgram",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;verify-add-new-program",
+        "keyword": "Scenario Outline",
+        "line": 41,
+        "name": "Verify add New Program",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 194900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Admin clicks on New Program under the Program menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Admin should see window titled \"Program Details\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin enters \"ProgramPP\",\"z\" and status and clicks on Save button for functionality \"Invalid-ProgDesc\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "The program \"ProgramPP\" is saved successfully",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@AddProgram",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;verify-add-new-program",
+        "keyword": "Scenario Outline",
+        "line": 42,
+        "name": "Verify add New Program",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 183000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "Admin clicks on New Program under the Program menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Admin should see window titled \"Program Details\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin enters \"ProC\",\"dd\" and status and clicks on Save button for functionality \"Invalid-already available\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "The program \"ProC\" is saved successfully",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:110"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@AddProgram",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;verify-edit-program",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Verify Edit Program",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "Admin edits \"ProC\",\"Edited ProgrammeA\",\"edited ProgrammeF for beginner level\" and status and clicks on Save button for functionality \"Valid\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:196"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@EditProgram",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;manage-program---delete-program-validations",
+        "keyword": "Scenario Outline",
+        "line": 61,
+        "name": "Manage Program - Delete Program Validations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 201600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "The Admin searches for a program \"ProC\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "The Admin does the validations in delete program functionality \"Admin clicks on No button\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:179"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@DeleteProgram",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;manage-program---delete-program-validations",
+        "keyword": "Scenario Outline",
+        "line": 62,
+        "name": "Manage Program - Delete Program Validations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 198300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "The Admin searches for a program \"ProC\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "The Admin does the validations in delete program functionality \"Admin Click on X button\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:179"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@DeleteProgram",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "program-feature;manage-program---delete-program-validations",
+        "keyword": "Scenario Outline",
+        "line": 63,
+        "name": "Manage Program - Delete Program Validations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 184900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user in Login Page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "Admin is on Program module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "The Admin searches for a program \"ProC\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:173"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "The Admin does the validations in delete program functionality \"Admin succesfully deletes the program\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\ProgramSteps.js:179"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Program",
+            "line": 1
+          },
+          {
+            "name": "@DeleteProgram",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "program-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Program Feature",
+    "tags": [
+      {
+        "name": "@Program",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\03_Program.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344416800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266941899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127567200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5241148898,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Admin should see the Batch Details pop up window",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Program Name"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Batch Name"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Description"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Status"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Number of Classes"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the popup should display the following fields:",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Validate batch name prefix box is not editable",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 233899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377233100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260135699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130284798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5242449299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"\", \"1277\",\"Developer\",\"Active\",\"12\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"Program Name is required.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 41,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 166600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378209999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281171199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159816700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5272814099,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"DataAnalyst\", \"\",\"Developer\",\"Active\",\"12\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"Batch Name is required.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 42,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 280500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413364499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295828698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162677099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5245105999,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"DataAnalyst\", \"1277\",\"\",\"Active\",\"12\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"Batch Description is required.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 43,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351602199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236290000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156368599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5274984900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"DataAnalyst\", \"1277\",\"Developer\",\"Active\",\"\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"Number of classes is required.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 44,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 734100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346259598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229909399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119564399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5239470500,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"DataAnalyst\", \"#$#$\",\"Developer\",\"Active\",\"12\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"This field accept only numbers and max 5 count.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 45,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 309099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386121900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5251500398,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"DataAnalyst\", \"1277\",\"12####\",\"Active\",\"12\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"This field should start with an alphabet and min 2 character.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-batch-feature;verify-admin-navigate-to-batch-page-successfully",
+        "keyword": "Scenario Outline",
+        "line": 46,
+        "name": "Verify Admin Navigate to Batch Page successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 271399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in the Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336466698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271109199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151831500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5284852699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "Admin clicks on \"Add New batch\" under the \"batch\" menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Admin enters \"DataAnalyst\", \"1277\",\"Developer\",\"Active\",\"12\" and click save button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Admin should a message \"Batch Created Successfully\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-batch-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Add Batch Feature",
+    "tags": [
+      {
+        "name": "@AddBatch",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\04_Batch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "edit-batch-feature;validate-the-admin-lands-on-the-manage-batch-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Validate the admin lands on the manage batch page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 267800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 406102100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5238744199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Admin should be in the Manage Batch Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "edit-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 349170799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315663099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132863100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5273190799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "DataAnalyst1277"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the admin able to click edit button for the batchName",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the admin should see the pop up window for edit Batch",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:78"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the program name and batch name should be in non-editable mode",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "edit-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 265599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372294100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5259606700,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "DataAnalyst1277"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the admin able to click edit button for the batchName",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the admin enters \"\",\"Active\",\"12\" and click Save button in Batch module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:87"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the admin should see the error message \"Batch Description is required.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:91"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "edit-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415058498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250123298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157038299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5253824799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "DataAnalyst1277"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the admin able to click edit button for the batchName",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the admin enters \"Developer\",\"Active\",\"\" and click Save button in Batch module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:87"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the admin should see the error message \"Number of classes is required.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:91"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "edit-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 743300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379752899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226860298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125653800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5252329299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "DataAnalyst1277"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the admin able to click edit button for the batchName",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the admin enters \"12####\",\"Active\",\"12\" and click Save button in Batch module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:87"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the admin should see the error message \"This field should start with an alphabet and min 2 character.\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:91"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "edit-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 214999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350675298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232587900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157251899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5244544700,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "DataAnalyst1277"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 27,
+            "name": "the admin able to click edit button for the batchName",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the admin enters \"Developer\",\"Active\",\"12\" and click Save button in Batch module",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:87"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the admin should see the error message \"batch Updated\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:91"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EditBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-batch-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Edit Batch Feature",
+    "tags": [
+      {
+        "name": "@EditBatch",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\05_EditBatch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "delete-batch-feature;validate-the-admin-lands-on-the-manage-batch-page",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Validate the admin lands on the manage batch page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367917098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229265299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139200700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5266942900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Admin should be in the Manage Batch Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "delete-batch-feature;validate-all-the-fields-exist-in-pop-up",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate all the fields exist in pop up",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is in Login Page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389042700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the username \"playwrightuser@gmail.com\" and \"Playwright@1234\"",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5260031399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the user navigates to the Dashboard page and get the title for verification",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\loginsteps.js:89"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "Admin is on the Dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Admin clicks Batch on the Menu from the header",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "DataAnalyst1277"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the admin able to click Delete button for the batchName",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:96"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the batch needs to be deleted",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\BatchSteps.js:100"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBatch",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "delete-batch-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Delete Batch Feature",
+    "tags": [
+      {
+        "name": "@DeleteBatch",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\06_DeleteBatch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validation-on-logout-button;verify-logout-function",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify logout function",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 211500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin is logged into the appilcation",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 488163000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin is in dashboard page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126068799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Admin clicks on the logout in the menu bar",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244586000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Admin should be redirected to login page",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:19"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6348422000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 6000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validation-on-logout-button;verify-back-button-function",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify back button function",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 226699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Admin is logged out of the application",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 483899798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Admin clicks  browser back button",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176410600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Admin should receive error message",
+            "match": {
+              "location": "tests\\features\\steps_definitions\\logoutsteps.js:31"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6316098699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 6000 milliseconds\n    at Timeout.<anonymous> (C:\\LMS_PlaywrightAutomation_version1.2\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validation-on-logout-button",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validation on Logout button",
+    "tags": [],
+    "uri": "tests\\features\\07_logout.feature"
+  }
+]

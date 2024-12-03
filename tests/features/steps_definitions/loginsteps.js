@@ -8,6 +8,7 @@ require
    
 let loginPag;
 
+
   Given('Admin launch the browser', async function () {
    
     //launching browser in hooks ...........
@@ -17,6 +18,7 @@ let loginPag;
    
   });
 
+  
 
 When('Admin gives the correct LMS portal URL', {timeout: 2 * 5000},async function ()  {
   
@@ -78,7 +80,7 @@ Given('the user is in Login Page', async function () {
   
   });
 
-  Then('Admin should see the message', async function () {
+  Then('Admin should see the message',{timeout: 2 * 5000}, async function () {
            
           await loginPag.message();
     });

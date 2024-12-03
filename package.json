@@ -2,16 +2,29 @@
   "name": "lms_playwrightautomation_version1.2",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "cucumber": "cucumber-js --require cucumber.js",
+    "generate:report": "node index.js",
+    "allure:report": "allure generate allure-results --clean && allure open"
+  },
   "keywords": [],
   "author": "",
+  "type": "commonjs",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.48.2",
-    "@types/node": "^22.9.0"
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0",
+    "allure-commandline": "^2.32.0",
+    "allure-cucumberjs": "^3.0.6",
+    "allure-playwright": "^3.0.6",
+    "playwright": "^1.49.0"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^11.0.1"
+    "@cucumber/cucumber": "^11.0.1",
+    "dotenv": "^16.4.5",
+    "spellchecker": "^3.7.1",
+    "tesseract.js": "^5.1.1",
+    "winston": "^3.17.0"
   }
 }
