@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "cucumber": "cucumber-js --require cucumber.js",
+    "cucumber": "cucumber-js --require cucumber.js --format json:reports/cucumber-report.json",
     "generate:report": "node index.js",
     "allure:report": "allure generate allure-results --clean && allure open"
   },
