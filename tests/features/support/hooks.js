@@ -29,7 +29,7 @@ BeforeAll(async function (){
         console.error("Error in BeforeAll hook:", error);
         throw error; 
     }
-    browser = await chromium.launch({headless : false}
+    browser = await chromium.launch({headless : true}
       );
     context = await browser.newContext();
      page = await context.newPage();
@@ -52,13 +52,13 @@ Before(async function ({pickle}) {
    // this.pomanage = pomanage;
 });
 
-// AfterAll(async function()
-// {
-//     if(browser)
-//     {
-// await browser.close();
-//     }
-// });
+ AfterAll(async function()
+ {
+     if(browser)
+     {
+ await browser.close();
+     }
+ });
 
 AfterStep(async function ({result}){
     if(result.status == Status.FAILED)
