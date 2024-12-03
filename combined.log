@@ -1,0 +1,419 @@
+2024-11-23T19:50:23.949Z [info]: SCENARIO::: Navigation -Verify that Admin is able to navigate to Program module056c9cc2-dbcc-49a2-95e0-785df2ee1338
+2024-11-23T19:50:26.567Z [info]: SCENARIO::: MenuBar - Verify the buttons on the menu bardc6af331-abb7-4b60-ad79-e99f509469f8
+2024-11-23T19:50:27.636Z [info]: Logout menu is visible :true
+2024-11-23T19:50:27.641Z [info]: Program menu is visible :true
+2024-11-23T19:50:27.645Z [info]: Batch menu is visible :true
+2024-11-23T19:50:27.650Z [info]: Class menu is visible :true
+2024-11-23T19:50:27.659Z [info]: Logout menu is visible :true
+2024-11-23T19:50:27.661Z [info]: SCENARIO::: Manage Program Page validation - Verify all the elements present in the Manage Program Pageb2b6ff1c-850c-436f-a486-8ad75dafa57a
+2024-11-23T19:50:28.497Z [info]: Delete button is visible in Manage Program:true
+2024-11-23T19:50:28.501Z [info]: Search button is visible in Manage Program:true
+2024-11-23T19:50:28.530Z [info]: Placeholder value in Search button::::Search...
+2024-11-23T19:50:28.536Z [info]: CheckBox is visible in table header:false
+2024-11-23T19:50:28.541Z [info]: Program Name is visible in table header:true
+2024-11-23T19:50:28.545Z [info]: Program Description is visible in table header:true
+2024-11-23T19:50:28.548Z [info]: Program Status is visible in table header:true
+2024-11-23T19:50:28.553Z [info]: Number of rows in Program Table: 0
+2024-11-23T19:50:28.554Z [error]: Program Table does not have 5 records..
+2024-11-23T19:50:28.558Z [info]: Message showing entries is visible in Manage Program:true
+2024-11-23T19:50:28.561Z [info]: Message showing entries is::::Showing 0 to 0 of 0 entries
+2024-11-23T19:50:28.564Z [info]: Message showing total entries is visible in Manage Program:true
+2024-11-23T19:50:28.567Z [info]: Message showing entries is:::: In total there are 0 programs. 
+2024-11-23T19:50:28.571Z [info]: SCENARIO::: Verify add New Program9fcc2d45-7a6b-4fef-b4f3-7fc4ce7542e6
+2024-11-23T19:50:29.687Z [info]: Program Details
+2024-11-23T19:50:29.880Z [info]: Length of Program Name : 10
+2024-11-23T19:50:29.962Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:29.963Z [info]: 26
+2024-11-23T19:50:30.199Z [info]: Program Created Successfully
+2024-11-23T19:50:34.361Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:50:34.362Z [info]: ProgrammeH is saved successfully..................
+2024-11-23T19:50:34.363Z [info]: SCENARIO::: Verify add New Programe7c73cc8-702a-4f61-8a04-b42555b9e91e
+2024-11-23T19:50:35.445Z [info]: Program Details
+2024-11-23T19:50:35.748Z [info]: Length of Program Name : 1
+2024-11-23T19:50:35.753Z [info]: Error message for program is visible
+2024-11-23T19:50:35.759Z [info]: This field should start with an alphabet, no special char and min 2 char.
+2024-11-23T19:50:35.831Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:35.832Z [info]: 19
+2024-11-23T19:50:40.265Z [info]: 
+2024-11-23T19:50:40.266Z [info]: z is not saved successfully..................
+2024-11-23T19:50:40.267Z [info]: SCENARIO::: Verify add New Program4d72abf8-cf75-4882-bdd1-f12ba166bce4
+2024-11-23T19:50:41.369Z [info]: Program Details
+2024-11-23T19:50:41.666Z [info]: Length of Program Name : 9
+2024-11-23T19:50:41.747Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:41.749Z [info]: 1
+2024-11-23T19:50:41.753Z [info]: Error message for description is visible
+2024-11-23T19:50:41.757Z [info]: This field should start with an alphabet and min 2 char.
+2024-11-23T19:50:46.181Z [info]: 
+2024-11-23T19:50:46.182Z [info]: ProgramPP is not saved successfully..................
+2024-11-23T19:50:46.183Z [info]: SCENARIO::: Verify add New Program9bbc96a5-528d-4961-869e-71ec8c164bac
+2024-11-23T19:50:47.299Z [info]: Program Details
+2024-11-23T19:50:47.599Z [info]: Length of Program Name : 10
+2024-11-23T19:50:47.604Z [info]: Error message for program is visible
+2024-11-23T19:50:47.607Z [info]: Program name is already exist.
+2024-11-23T19:50:47.677Z [info]: Length of ProgramDesc:
+2024-11-23T19:50:47.677Z [info]: 2
+2024-11-23T19:50:52.099Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:50:52.099Z [info]: ProgrammeH is saved successfully..................
+2024-11-23T19:50:52.100Z [info]: SCENARIO::: Verify Edit Program8d83fcc2-cc29-4616-99ae-a792d8092336
+2024-11-23T19:50:57.935Z [info]: SCENARIO::: Manage Program - Delete Program Validationsac77d28d-7874-41f2-acb3-db0665a040f3
+2024-11-23T19:51:02.736Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:51:02.737Z [info]: ProgrammeH is present..................
+2024-11-23T19:51:02.738Z [info]: Admin clicks on No button
+2024-11-23T19:51:07.863Z [info]: Delete Cancel button is clicked successfully...
+2024-11-23T19:51:07.865Z [info]: SCENARIO::: Manage Program - Delete Program Validationsc5036ad8-fdf3-4f2d-a555-8ca9be4da37e
+2024-11-23T19:51:12.655Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:51:12.655Z [info]: ProgrammeH is present..................
+2024-11-23T19:51:12.656Z [info]: Admin Click on X button
+2024-11-23T19:51:17.726Z [info]: Delete Close button is clicked successfully...
+2024-11-23T19:51:17.727Z [info]: SCENARIO::: Manage Program - Delete Program Validations2f00f45c-bd59-4beb-9973-85bb55c93bae
+2024-11-23T19:51:22.490Z [info]: ProgrammeHprogram for beginner levelActive  
+2024-11-23T19:51:22.491Z [info]: ProgrammeH is present..................
+2024-11-23T19:51:22.492Z [info]: Admin succesfully deletes the program
+2024-11-23T19:51:24.643Z [info]: Delete Yes button is clicked successfully...
+2024-11-23T20:01:00.999Z [info]: SCENARIO::: Verify Edit Program20b4e937-e1b9-4329-8ea1-cd31b93a36bb
+2024-11-23T20:01:29.589Z [info]: SCENARIO::: Verify Edit Program636b6388-cc24-4c4b-95a8-47b8581147f2
+2024-12-03T02:06:07.330Z [info]: SCENARIO::: Login Page verificationacac3181-2057-40cd-8c68-ed9aaa9d8b49
+2024-12-03T02:06:11.326Z [info]: SCENARIO::: Navigation -Verify that Admin is able to navigate to Program modulea6eaac3b-e700-41b3-a2f7-58ff8e85644a
+2024-12-03T02:06:12.352Z [info]: SCENARIO::: MenuBar - Verify the buttons on the menu barf1f745a5-7472-44b4-b9b1-3de68bf8076b
+2024-12-03T02:06:13.348Z [info]: Logout menu is visible :true
+2024-12-03T02:06:13.353Z [info]: Program menu is visible :true
+2024-12-03T02:06:13.356Z [info]: Batch menu is visible :true
+2024-12-03T02:06:13.364Z [info]: Class menu is visible :true
+2024-12-03T02:06:13.367Z [info]: Logout menu is visible :true
+2024-12-03T02:06:13.372Z [info]: SCENARIO::: Manage Program Page validation - Verify all the elements present in the Manage Program Page74b174e7-57a7-4627-9e6c-8d2513f40b4f
+2024-12-03T02:06:14.299Z [info]: Delete button is visible in Manage Program:true
+2024-12-03T02:06:14.319Z [info]: Search button is visible in Manage Program:true
+2024-12-03T02:06:14.472Z [info]: Placeholder value in Search button::::Search...
+2024-12-03T02:06:14.474Z [info]: CheckBox is visible in table header:true
+2024-12-03T02:06:14.477Z [info]: Program Name is visible in table header:true
+2024-12-03T02:06:14.480Z [info]: Program Description is visible in table header:true
+2024-12-03T02:06:14.483Z [info]: Program Status is visible in table header:true
+2024-12-03T02:06:14.485Z [info]: Number of rows in Program Table: 5
+2024-12-03T02:06:14.485Z [info]: Program Table has 5 records...
+2024-12-03T02:06:14.488Z [info]: Message showing entries is visible in Manage Program:true
+2024-12-03T02:06:14.490Z [info]: Message showing entries is::::Showing 1 to 5 of 28 entries
+2024-12-03T02:06:14.493Z [info]: Message showing total entries is visible in Manage Program:true
+2024-12-03T02:06:14.495Z [info]: Message showing entries is:::: In total there are 28 programs. 
+2024-12-03T02:06:14.503Z [info]: SCENARIO::: Verify add New Program75bd51f8-682d-41db-9ede-736533a70b2b
+2024-12-03T02:06:15.955Z [info]: Program Details
+2024-12-03T02:06:16.382Z [info]: Length of Program Name : 4
+2024-12-03T02:06:16.708Z [info]: Length of ProgramDesc:
+2024-12-03T02:06:16.709Z [info]: 26
+2024-12-03T02:06:16.931Z [info]: Program Created Successfully
+2024-12-03T02:06:21.227Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:06:21.228Z [info]: ProA is saved successfully..................
+2024-12-03T02:06:21.231Z [info]: SCENARIO::: Verify add New Program1159cec3-d567-4f3f-a4fd-652d1363526d
+2024-12-03T02:06:22.407Z [info]: Program Details
+2024-12-03T02:06:22.682Z [info]: Length of Program Name : 1
+2024-12-03T02:06:22.688Z [info]: Error message for program is visible
+2024-12-03T02:06:22.697Z [info]: This field should start with an alphabet, no special char and min 2 char.
+2024-12-03T02:06:23.119Z [info]: Length of ProgramDesc:
+2024-12-03T02:06:23.119Z [info]: 19
+2024-12-03T02:06:27.641Z [info]: 
+2024-12-03T02:06:27.641Z [info]: z is not saved successfully..................
+2024-12-03T02:06:27.651Z [info]: SCENARIO::: Verify add New Programa351c548-716a-40fa-b96c-21a8d62c3371
+2024-12-03T02:06:28.889Z [info]: Program Details
+2024-12-03T02:06:29.170Z [info]: Length of Program Name : 9
+2024-12-03T02:06:29.240Z [info]: Length of ProgramDesc:
+2024-12-03T02:06:29.241Z [info]: 1
+2024-12-03T02:06:29.251Z [info]: Error message for description is visible
+2024-12-03T02:06:29.256Z [info]: This field should start with an alphabet and min 2 char.
+2024-12-03T02:06:33.724Z [info]: 
+2024-12-03T02:06:33.724Z [info]: ProgramPP is not saved successfully..................
+2024-12-03T02:06:33.726Z [info]: SCENARIO::: Verify add New Programfa10d30d-a466-406b-9583-d9a6eb604793
+2024-12-03T02:06:34.833Z [info]: Program Details
+2024-12-03T02:06:35.029Z [info]: Length of Program Name : 4
+2024-12-03T02:06:35.057Z [info]: Error message for program is visible
+2024-12-03T02:06:35.074Z [info]: Program name is already exist.
+2024-12-03T02:06:35.147Z [info]: Length of ProgramDesc:
+2024-12-03T02:06:35.147Z [info]: 2
+2024-12-03T02:06:39.555Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:06:39.555Z [info]: ProA is saved successfully..................
+2024-12-03T02:06:39.563Z [info]: SCENARIO::: Verify Edit Program332ba7a4-485c-40bd-afef-f54eb00a8ce9
+2024-12-03T02:06:41.576Z [info]: SCENARIO::: Manage Program - Delete Program Validations2984f316-17d9-4fdc-86bc-11b872d36f65
+2024-12-03T02:06:46.639Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:06:46.639Z [info]: ProA is present..................
+2024-12-03T02:06:46.646Z [info]: Admin clicks on No button
+2024-12-03T02:06:51.828Z [info]: Delete Cancel button is clicked successfully...
+2024-12-03T02:06:51.835Z [info]: SCENARIO::: Manage Program - Delete Program Validations8e5a25d0-f399-4ed5-b06a-22843d569b3d
+2024-12-03T02:06:56.713Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:06:56.713Z [info]: ProA is present..................
+2024-12-03T02:06:56.713Z [info]: Admin Click on X button
+2024-12-03T02:07:01.877Z [info]: Delete Close button is clicked successfully...
+2024-12-03T02:07:01.885Z [info]: SCENARIO::: Manage Program - Delete Program Validations7e8d7960-d080-4fc2-b522-b3d5d5b498a0
+2024-12-03T02:07:06.822Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:07:06.822Z [info]: ProA is present..................
+2024-12-03T02:07:06.823Z [info]: Admin succesfully deletes the program
+2024-12-03T02:07:08.971Z [info]: Delete Yes button is clicked successfully...
+2024-12-03T02:07:08.973Z [info]: SCENARIO::: Login to LMScd1c5c55-a14e-4d03-94b5-2173df0cf0e9
+2024-12-03T02:07:09.678Z [info]: SCENARIO::: Validate all the fields exist in pop upf48e1572-8e67-42f5-a68d-66aa2a89ab47
+2024-12-03T02:07:11.051Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully1e0e3700-5268-404a-9fad-461abc5828a9
+2024-12-03T02:07:21.209Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullyd7934e2f-045b-4e75-a3bd-6ce1998ac9a5
+2024-12-03T02:07:31.347Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully627e9f5c-3b5a-4a25-aafc-14496cfa3f9a
+2024-12-03T02:07:41.487Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully657727df-8321-43e7-8e13-8a5179ea4d7e
+2024-12-03T02:07:51.631Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullyfaaa2ab3-8b38-466f-ac33-2f030c33993b
+2024-12-03T02:08:01.795Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullye7707c2a-c297-4977-8394-ef82e36f5387
+2024-12-03T02:08:11.952Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully170e9463-e9a8-403b-96ee-07b17e8c3bbd
+2024-12-03T02:08:22.102Z [info]: SCENARIO::: Validate the admin lands on the manage batch pageec4bce81-4428-4394-a147-35aaf1e72473
+2024-12-03T02:08:23.151Z [info]: SCENARIO::: Validate all the fields exist in pop upd5a8ac6e-68e9-4b43-ada0-9ab430399a06
+2024-12-03T02:08:29.029Z [info]: SCENARIO::: Validate all the fields exist in pop up31201709-be06-4011-ad62-8e49c791f81f
+2024-12-03T02:08:35.370Z [info]: SCENARIO::: Validate all the fields exist in pop up84084da5-bd59-40f4-87cb-468c94c272f1
+2024-12-03T02:08:41.276Z [info]: SCENARIO::: Validate all the fields exist in pop up0e155e75-ba7b-406d-a0a7-870ca3a5a817
+2024-12-03T02:08:52.152Z [info]: SCENARIO::: Validate all the fields exist in pop up580ee48c-cf3f-4d87-b59f-b5442266d8e6
+2024-12-03T02:09:03.636Z [info]: SCENARIO::: Validate the admin lands on the manage batch pageba326fdd-ba13-4a70-8e67-81c121c54b74
+2024-12-03T02:09:04.567Z [info]: SCENARIO::: Validate all the fields exist in pop up7c4dbef8-ae99-4031-8f76-4907561b2622
+2024-12-03T02:15:33.549Z [info]: SCENARIO::: Login Page verificationf2a788f2-1649-4976-b95f-0f8bea5501ec
+2024-12-03T02:15:36.324Z [info]: SCENARIO::: Navigation -Verify that Admin is able to navigate to Program module20a992f5-c1a4-4e29-8c3a-a51ac0953c45
+2024-12-03T02:15:37.333Z [info]: SCENARIO::: MenuBar - Verify the buttons on the menu bar5a58af16-e1dd-41b8-b08c-c7038085365e
+2024-12-03T02:15:38.111Z [info]: Logout menu is visible :true
+2024-12-03T02:15:38.114Z [info]: Program menu is visible :true
+2024-12-03T02:15:38.124Z [info]: Batch menu is visible :true
+2024-12-03T02:15:38.135Z [info]: Class menu is visible :true
+2024-12-03T02:15:38.137Z [info]: Logout menu is visible :true
+2024-12-03T02:15:38.141Z [info]: SCENARIO::: Manage Program Page validation - Verify all the elements present in the Manage Program Pageebe77c8c-5326-475c-887e-395016acff69
+2024-12-03T02:15:38.774Z [info]: Delete button is visible in Manage Program:true
+2024-12-03T02:15:38.777Z [info]: Search button is visible in Manage Program:true
+2024-12-03T02:15:38.834Z [info]: Placeholder value in Search button::::Search...
+2024-12-03T02:15:38.870Z [info]: CheckBox is visible in table header:true
+2024-12-03T02:15:38.877Z [info]: Program Name is visible in table header:true
+2024-12-03T02:15:38.891Z [info]: Program Description is visible in table header:true
+2024-12-03T02:15:38.894Z [info]: Program Status is visible in table header:true
+2024-12-03T02:15:38.902Z [info]: Number of rows in Program Table: 5
+2024-12-03T02:15:38.902Z [info]: Program Table has 5 records...
+2024-12-03T02:15:38.907Z [info]: Message showing entries is visible in Manage Program:true
+2024-12-03T02:15:38.912Z [info]: Message showing entries is::::Showing 1 to 5 of 29 entries
+2024-12-03T02:15:38.924Z [info]: Message showing total entries is visible in Manage Program:true
+2024-12-03T02:15:38.929Z [info]: Message showing entries is:::: In total there are 29 programs. 
+2024-12-03T02:15:38.933Z [info]: SCENARIO::: Verify add New Program4da96fda-1648-450e-889f-a0682f8fb2b9
+2024-12-03T02:15:40.160Z [info]: Program Details
+2024-12-03T02:15:40.372Z [info]: Length of Program Name : 4
+2024-12-03T02:15:40.462Z [info]: Length of ProgramDesc:
+2024-12-03T02:15:40.462Z [info]: 26
+2024-12-03T02:15:40.714Z [info]: Program Created Successfully
+2024-12-03T02:15:44.867Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:15:44.868Z [info]: ProA is saved successfully..................
+2024-12-03T02:15:44.875Z [info]: SCENARIO::: Verify add New Program91b6766a-6d46-4acb-b8a0-722ff82c998f
+2024-12-03T02:15:46.004Z [info]: Program Details
+2024-12-03T02:15:46.220Z [info]: Length of Program Name : 1
+2024-12-03T02:15:46.229Z [info]: Error message for program is visible
+2024-12-03T02:15:46.241Z [info]: This field should start with an alphabet, no special char and min 2 char.
+2024-12-03T02:15:46.342Z [info]: Length of ProgramDesc:
+2024-12-03T02:15:46.342Z [info]: 19
+2024-12-03T02:15:50.685Z [info]: 
+2024-12-03T02:15:50.686Z [info]: z is not saved successfully..................
+2024-12-03T02:15:50.692Z [info]: SCENARIO::: Verify add New Program98a87886-9116-4603-8959-9a797e5aeed3
+2024-12-03T02:15:51.793Z [info]: Program Details
+2024-12-03T02:15:52.090Z [info]: Length of Program Name : 9
+2024-12-03T02:15:52.179Z [info]: Length of ProgramDesc:
+2024-12-03T02:15:52.179Z [info]: 1
+2024-12-03T02:15:52.183Z [info]: Error message for description is visible
+2024-12-03T02:15:52.192Z [info]: This field should start with an alphabet and min 2 char.
+2024-12-03T02:15:56.636Z [info]: 
+2024-12-03T02:15:56.636Z [info]: ProgramPP is not saved successfully..................
+2024-12-03T02:15:56.644Z [info]: SCENARIO::: Verify add New Program296adc0c-1768-4046-a299-c37f36bc8bc4
+2024-12-03T02:15:57.770Z [info]: Program Details
+2024-12-03T02:15:57.943Z [info]: Length of Program Name : 4
+2024-12-03T02:15:57.946Z [info]: Error message for program is visible
+2024-12-03T02:15:57.955Z [info]: Program name is already exist.
+2024-12-03T02:15:58.061Z [info]: Length of ProgramDesc:
+2024-12-03T02:15:58.062Z [info]: 2
+2024-12-03T02:16:02.413Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:16:02.413Z [info]: ProA is saved successfully..................
+2024-12-03T02:16:02.416Z [info]: SCENARIO::: Verify Edit Program01b157db-06e0-4f66-bc7e-c183671baee3
+2024-12-03T02:16:08.595Z [info]: SCENARIO::: Manage Program - Delete Program Validations5dc3c133-8ed8-4f09-9311-e36d4d016637
+2024-12-03T02:16:13.464Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:16:13.464Z [info]: ProA is present..................
+2024-12-03T02:16:13.464Z [info]: Admin clicks on No button
+2024-12-03T02:16:18.656Z [info]: Delete Cancel button is clicked successfully...
+2024-12-03T02:16:18.663Z [info]: SCENARIO::: Manage Program - Delete Program Validations3df31822-efab-48c3-90b5-0898da2b0d75
+2024-12-03T02:16:23.488Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:16:23.489Z [info]: ProA is present..................
+2024-12-03T02:16:23.490Z [info]: Admin Click on X button
+2024-12-03T02:16:28.604Z [info]: Delete Close button is clicked successfully...
+2024-12-03T02:16:28.606Z [info]: SCENARIO::: Manage Program - Delete Program Validationsdc5cd8da-fb4c-4526-9591-244e88204d66
+2024-12-03T02:16:33.542Z [info]: ProAprogram for beginner levelActive  
+2024-12-03T02:16:33.542Z [info]: ProA is present..................
+2024-12-03T02:16:33.542Z [info]: Admin succesfully deletes the program
+2024-12-03T02:16:35.733Z [info]: Delete Yes button is clicked successfully...
+2024-12-03T02:16:35.745Z [info]: SCENARIO::: Validate all the fields exist in pop upa31b3907-9d67-4683-808b-9acc67ee79e4
+2024-12-03T02:16:37.123Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully65635444-8b37-492d-a82d-db1577155748
+2024-12-03T02:16:39.461Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullye3fd8ccd-714e-4600-95e6-6320c6815362
+2024-12-03T02:16:42.332Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullybc9453ac-6bbc-416f-a4aa-57d6ff11e28f
+2024-12-03T02:16:45.097Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully155b2d3d-8a8d-4328-bca8-c6f36497f561
+2024-12-03T02:16:47.850Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullyaa332f29-616d-4e13-9be2-a215beb40a24
+2024-12-03T02:16:50.590Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully48948456-8faa-4577-93cd-d60d64db9b56
+2024-12-03T02:16:53.373Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullybf410a63-c410-422c-8852-fb2f13da7e47
+2024-12-03T02:16:56.407Z [info]: SCENARIO::: Validate the admin lands on the manage batch page00c90a38-8946-40d9-a294-e689d6a63202
+2024-12-03T02:16:57.124Z [info]: SCENARIO::: Validate all the fields exist in pop up81fbc238-d490-46ff-a828-091104042cd8
+2024-12-03T02:17:02.999Z [info]: SCENARIO::: Validate all the fields exist in pop upf6958625-7da5-4978-81e1-4f3700e4821c
+2024-12-03T02:17:08.910Z [info]: SCENARIO::: Validate all the fields exist in pop upe9ba5cb3-e996-4065-8512-8574049f6661
+2024-12-03T02:17:14.830Z [info]: SCENARIO::: Validate all the fields exist in pop upfaae95f9-f111-40bc-82f5-41129434aaf6
+2024-12-03T02:17:20.667Z [info]: SCENARIO::: Validate all the fields exist in pop upd07460a3-028d-492b-8469-36741bc00786
+2024-12-03T02:17:27.053Z [info]: SCENARIO::: Validate the admin lands on the manage batch page0562765b-3eef-4850-b46b-1a0306133351
+2024-12-03T02:17:27.956Z [info]: SCENARIO::: Validate all the fields exist in pop up7315c99e-af27-4877-8b39-d23b4dcb44a0
+2024-12-03T02:24:08.729Z [info]: SCENARIO::: Login Page verification977ca004-263a-42c9-bc1a-24c043ba597a
+2024-12-03T02:24:11.198Z [info]: SCENARIO::: Navigation -Verify that Admin is able to navigate to Program module4154593d-5ae2-4c30-821b-1f20ae2f919e
+2024-12-03T02:24:12.435Z [info]: SCENARIO::: MenuBar - Verify the buttons on the menu barec043f77-f3ab-4b10-ba13-9b6899a641ba
+2024-12-03T02:24:13.263Z [info]: Logout menu is visible :true
+2024-12-03T02:24:13.269Z [info]: Program menu is visible :true
+2024-12-03T02:24:13.274Z [info]: Batch menu is visible :true
+2024-12-03T02:24:13.288Z [info]: Class menu is visible :true
+2024-12-03T02:24:13.294Z [info]: Logout menu is visible :true
+2024-12-03T02:24:13.297Z [info]: SCENARIO::: Manage Program Page validation - Verify all the elements present in the Manage Program Page4f09d14b-2d59-4b4f-b4c7-f7158549381b
+2024-12-03T02:24:14.202Z [info]: Delete button is visible in Manage Program:true
+2024-12-03T02:24:14.208Z [info]: Search button is visible in Manage Program:true
+2024-12-03T02:24:14.246Z [info]: Placeholder value in Search button::::Search...
+2024-12-03T02:24:14.251Z [info]: CheckBox is visible in table header:true
+2024-12-03T02:24:14.260Z [info]: Program Name is visible in table header:true
+2024-12-03T02:24:14.262Z [info]: Program Description is visible in table header:true
+2024-12-03T02:24:14.265Z [info]: Program Status is visible in table header:true
+2024-12-03T02:24:14.269Z [info]: Number of rows in Program Table: 5
+2024-12-03T02:24:14.270Z [info]: Program Table has 5 records...
+2024-12-03T02:24:14.273Z [info]: Message showing entries is visible in Manage Program:true
+2024-12-03T02:24:14.278Z [info]: Message showing entries is::::Showing 1 to 5 of 29 entries
+2024-12-03T02:24:14.298Z [info]: Message showing total entries is visible in Manage Program:true
+2024-12-03T02:24:14.301Z [info]: Message showing entries is:::: In total there are 29 programs. 
+2024-12-03T02:24:14.305Z [info]: SCENARIO::: Verify add New Program7f2081cd-2fa0-4707-bc8f-66a68bf5934a
+2024-12-03T02:24:15.466Z [info]: Program Details
+2024-12-03T02:24:15.680Z [info]: Length of Program Name : 4
+2024-12-03T02:24:15.738Z [info]: Length of ProgramDesc:
+2024-12-03T02:24:15.738Z [info]: 26
+2024-12-03T02:24:15.961Z [info]: cannot create program , since already exists
+2024-12-03T02:24:20.164Z [info]: 
+2024-12-03T02:24:20.164Z [info]: ProA is not saved successfully..................
+2024-12-03T02:24:20.166Z [info]: SCENARIO::: Verify add New Programc56ca710-bb2a-4744-af38-110e0e32c498
+2024-12-03T02:24:21.508Z [info]: Program Details
+2024-12-03T02:24:21.704Z [info]: Length of Program Name : 1
+2024-12-03T02:24:21.714Z [info]: Error message for program is visible
+2024-12-03T02:24:21.722Z [info]: This field should start with an alphabet, no special char and min 2 char.
+2024-12-03T02:24:21.823Z [info]: Length of ProgramDesc:
+2024-12-03T02:24:21.823Z [info]: 19
+2024-12-03T02:24:26.211Z [info]: 
+2024-12-03T02:24:26.212Z [info]: z is not saved successfully..................
+2024-12-03T02:24:26.217Z [info]: SCENARIO::: Verify add New Program15e114dc-5ac1-470b-bc46-21bc16d27f39
+2024-12-03T02:24:27.460Z [info]: Program Details
+2024-12-03T02:24:27.686Z [info]: Length of Program Name : 9
+2024-12-03T02:24:27.757Z [info]: Length of ProgramDesc:
+2024-12-03T02:24:27.758Z [info]: 1
+2024-12-03T02:24:27.762Z [info]: Error message for description is visible
+2024-12-03T02:24:27.769Z [info]: This field should start with an alphabet and min 2 char.
+2024-12-03T02:24:32.206Z [info]: 
+2024-12-03T02:24:32.207Z [info]: ProgramPP is not saved successfully..................
+2024-12-03T02:24:32.214Z [info]: SCENARIO::: Verify add New Program891d2e9b-0b42-4ad4-8bda-495d22f9eb30
+2024-12-03T02:24:33.515Z [info]: Program Details
+2024-12-03T02:24:33.731Z [info]: Length of Program Name : 4
+2024-12-03T02:24:33.737Z [info]: Error message for program name is not visible
+2024-12-03T02:24:34.038Z [info]: Length of ProgramDesc:
+2024-12-03T02:24:34.038Z [info]: 2
+2024-12-03T02:24:34.472Z [info]: cannot create program , since already exists
+2024-12-03T02:24:38.551Z [info]: 
+2024-12-03T02:24:38.551Z [info]: ProA is not saved successfully..................
+2024-12-03T02:24:38.559Z [info]: SCENARIO::: Verify Edit Programe33bb094-fd0d-4f36-a82e-1c48d352bce8
+2024-12-03T02:24:44.501Z [info]: SCENARIO::: Manage Program - Delete Program Validationsd00cf55c-a6e6-44e3-8e1a-5f32b93308ee
+2024-12-03T02:24:47.487Z [info]: SCENARIO::: Manage Program - Delete Program Validations6e8222a2-4ef6-4081-9e6a-a16cf9af6d33
+2024-12-03T02:24:47.505Z [info]: SCENARIO::: Manage Program - Delete Program Validationsa6002312-cd7f-4755-bf87-801da9e2fdd3
+2024-12-03T02:24:47.516Z [info]: SCENARIO::: Validate all the fields exist in pop up374657ea-6db9-476a-baba-10cc371693dd
+2024-12-03T02:24:47.521Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullybb9311a6-c939-417d-9265-f5c770cac512
+2024-12-03T02:24:47.532Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullydafe2fc9-2016-454a-82a8-acf1503452ce
+2024-12-03T02:24:47.542Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullyf615101e-0a1d-4d76-8685-cd5391f68966
+2024-12-03T02:24:47.548Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullye81a69a0-f4ef-43bd-9f57-ae9b1cca551d
+2024-12-03T02:24:47.553Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullyb88cdae6-5309-4c04-9d97-ec3194c925df
+2024-12-03T02:24:47.562Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully628652d1-8036-4173-b4b5-10e2337636c4
+2024-12-03T02:24:47.575Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully5c1a1338-6c6c-44be-94d4-97a23850a1cc
+2024-12-03T02:24:47.581Z [info]: SCENARIO::: Validate the admin lands on the manage batch pageec98c428-1af5-401a-a668-c2243e703508
+2024-12-03T02:24:47.593Z [info]: SCENARIO::: Validate all the fields exist in pop updb05f0fb-d358-42ac-880b-1f83ee75d272
+2024-12-03T02:24:47.610Z [info]: SCENARIO::: Validate all the fields exist in pop upc519fd78-4f20-4d01-8871-24c831a9812d
+2024-12-03T02:24:47.620Z [info]: SCENARIO::: Validate all the fields exist in pop upd121b9d6-7607-467b-b242-8c66f525cacc
+2024-12-03T02:24:47.629Z [info]: SCENARIO::: Validate all the fields exist in pop up91519a83-394b-4246-8d63-462fbdff8ca1
+2024-12-03T02:24:47.638Z [info]: SCENARIO::: Validate all the fields exist in pop up9a63f027-f81e-4d23-a10e-ba07d9d109c9
+2024-12-03T02:24:47.643Z [info]: SCENARIO::: Validate the admin lands on the manage batch page4f03d3f6-ae88-432b-9522-990f8d702997
+2024-12-03T02:24:47.659Z [info]: SCENARIO::: Validate all the fields exist in pop up8f12672a-db87-40c6-acaa-5341b445755e
+2024-12-03T02:25:40.863Z [info]: SCENARIO::: Login Page verification3983bce1-3ff8-4940-ba36-a9563be31b5e
+2024-12-03T02:25:43.209Z [info]: SCENARIO::: Navigation -Verify that Admin is able to navigate to Program moduleeb6c4ead-f959-4aee-ab8c-aee452dc747c
+2024-12-03T02:25:44.162Z [info]: SCENARIO::: MenuBar - Verify the buttons on the menu barf6a3ae3c-752c-4230-a93f-d725f3ebe409
+2024-12-03T02:25:44.920Z [info]: Logout menu is visible :true
+2024-12-03T02:25:44.924Z [info]: Program menu is visible :true
+2024-12-03T02:25:44.933Z [info]: Batch menu is visible :true
+2024-12-03T02:25:44.942Z [info]: Class menu is visible :true
+2024-12-03T02:25:44.950Z [info]: Logout menu is visible :true
+2024-12-03T02:25:44.958Z [info]: SCENARIO::: Manage Program Page validation - Verify all the elements present in the Manage Program Pagee7d2b0bc-b68e-4600-b052-3e2dfb2d7fc8
+2024-12-03T02:25:45.860Z [info]: Delete button is visible in Manage Program:true
+2024-12-03T02:25:45.864Z [info]: Search button is visible in Manage Program:true
+2024-12-03T02:25:45.890Z [info]: Placeholder value in Search button::::Search...
+2024-12-03T02:25:45.894Z [info]: CheckBox is visible in table header:true
+2024-12-03T02:25:45.901Z [info]: Program Name is visible in table header:true
+2024-12-03T02:25:45.905Z [info]: Program Description is visible in table header:true
+2024-12-03T02:25:45.908Z [info]: Program Status is visible in table header:true
+2024-12-03T02:25:45.912Z [info]: Number of rows in Program Table: 5
+2024-12-03T02:25:45.912Z [info]: Program Table has 5 records...
+2024-12-03T02:25:45.914Z [info]: Message showing entries is visible in Manage Program:true
+2024-12-03T02:25:45.917Z [info]: Message showing entries is::::Showing 1 to 5 of 29 entries
+2024-12-03T02:25:45.921Z [info]: Message showing total entries is visible in Manage Program:true
+2024-12-03T02:25:45.923Z [info]: Message showing entries is:::: In total there are 29 programs. 
+2024-12-03T02:25:45.933Z [info]: SCENARIO::: Verify add New Program5f7cc9f4-704d-46c4-9641-9b9d687ca40d
+2024-12-03T02:25:47.173Z [info]: Program Details
+2024-12-03T02:25:47.338Z [info]: Length of Program Name : 4
+2024-12-03T02:25:47.457Z [info]: Length of ProgramDesc:
+2024-12-03T02:25:47.457Z [info]: 26
+2024-12-03T02:25:47.664Z [info]: Program Created Successfully
+2024-12-03T02:25:51.882Z [info]: ProBprogram for beginner levelActive  
+2024-12-03T02:25:51.882Z [info]: ProB is saved successfully..................
+2024-12-03T02:25:51.892Z [info]: SCENARIO::: Verify add New Program61e5d904-87c8-4c99-94cb-4a0de17e1f90
+2024-12-03T02:25:52.993Z [info]: Program Details
+2024-12-03T02:25:53.293Z [info]: Length of Program Name : 1
+2024-12-03T02:25:53.297Z [info]: Error message for program is visible
+2024-12-03T02:25:53.301Z [info]: This field should start with an alphabet, no special char and min 2 char.
+2024-12-03T02:25:53.369Z [info]: Length of ProgramDesc:
+2024-12-03T02:25:53.370Z [info]: 19
+2024-12-03T02:25:57.779Z [info]: 
+2024-12-03T02:25:57.781Z [info]: z is not saved successfully..................
+2024-12-03T02:25:57.792Z [info]: SCENARIO::: Verify add New Programf4c0d7bb-c6e4-4652-ad9b-01599f54939f
+2024-12-03T02:25:59.054Z [info]: Program Details
+2024-12-03T02:25:59.344Z [info]: Length of Program Name : 9
+2024-12-03T02:25:59.414Z [info]: Length of ProgramDesc:
+2024-12-03T02:25:59.415Z [info]: 1
+2024-12-03T02:25:59.419Z [info]: Error message for description is visible
+2024-12-03T02:25:59.424Z [info]: This field should start with an alphabet and min 2 char.
+2024-12-03T02:26:03.778Z [info]: 
+2024-12-03T02:26:03.778Z [info]: ProgramPP is not saved successfully..................
+2024-12-03T02:26:03.789Z [info]: SCENARIO::: Verify add New Program07888bf5-dd8d-4ae6-a319-30e2f002bda5
+2024-12-03T02:26:04.848Z [info]: Program Details
+2024-12-03T02:26:05.049Z [info]: Length of Program Name : 4
+2024-12-03T02:26:05.065Z [info]: Error message for program is visible
+2024-12-03T02:26:05.071Z [info]: Program name is already exist.
+2024-12-03T02:26:05.165Z [info]: Length of ProgramDesc:
+2024-12-03T02:26:05.165Z [info]: 2
+2024-12-03T02:26:09.485Z [info]: ProBprogram for beginner levelActive  
+2024-12-03T02:26:09.486Z [info]: ProB is saved successfully..................
+2024-12-03T02:26:09.507Z [info]: SCENARIO::: Verify Edit Programd11fc960-2e3a-4a49-b06d-c3c92fcaea79
+2024-12-03T02:26:15.403Z [info]: SCENARIO::: Manage Program - Delete Program Validations2790c392-36b1-4486-8348-bdae3a28fc36
+2024-12-03T02:26:20.276Z [info]: ProBprogram for beginner levelActive  
+2024-12-03T02:26:20.277Z [info]: ProB is present..................
+2024-12-03T02:26:20.278Z [info]: Admin clicks on No button
+2024-12-03T02:26:25.399Z [info]: Delete Cancel button is clicked successfully...
+2024-12-03T02:26:25.411Z [info]: SCENARIO::: Manage Program - Delete Program Validationse454fe2a-7544-4bc4-b505-46298cb819a7
+2024-12-03T02:26:30.492Z [info]: ProBprogram for beginner levelActive  
+2024-12-03T02:26:30.492Z [info]: ProB is present..................
+2024-12-03T02:26:30.494Z [info]: Admin Click on X button
+2024-12-03T02:26:35.569Z [info]: Delete Close button is clicked successfully...
+2024-12-03T02:26:35.576Z [info]: SCENARIO::: Manage Program - Delete Program Validationsaadc5239-f1ba-4c60-a8e3-f8235205b716
+2024-12-03T02:26:40.446Z [info]: ProBprogram for beginner levelActive  
+2024-12-03T02:26:40.447Z [info]: ProB is present..................
+2024-12-03T02:26:40.452Z [info]: Admin succesfully deletes the program
+2024-12-03T02:26:42.643Z [info]: Delete Yes button is clicked successfully...
+2024-12-03T02:26:42.655Z [info]: SCENARIO::: Validate all the fields exist in pop upa9b0ea1b-a5d1-4e20-9409-982f0660d241
+2024-12-03T02:26:43.863Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully5e0c5092-d6b8-4f25-8931-4783b1cf70a4
+2024-12-03T02:26:45.895Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully16836239-cc54-4634-be41-858032d93d91
+2024-12-03T02:26:48.518Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully2ea52062-5682-4805-ad05-98a416698c0e
+2024-12-03T02:26:51.140Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully37045457-8c80-4441-8b81-eb35d9cd0e2e
+2024-12-03T02:26:53.924Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully5bae2b0e-8e66-47e0-b40a-9587716d2880
+2024-12-03T02:26:56.615Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfullyf51334b6-7234-4a8f-adbb-c067f9cc0c7c
+2024-12-03T02:26:59.203Z [info]: SCENARIO::: Verify Admin Navigate to Batch Page successfully49ac4299-992c-443c-8e69-8345e149620d
+2024-12-03T02:27:02.145Z [info]: SCENARIO::: Validate the admin lands on the manage batch pagebff3cfaf-b898-4c1e-b31a-193a5384e468
+2024-12-03T02:27:03.023Z [info]: SCENARIO::: Validate all the fields exist in pop upf2551f4e-38a8-4d67-a3c1-a7e4a0f26bce
+2024-12-03T02:27:07.023Z [info]: SCENARIO::: Validate all the fields exist in pop upb501fb0b-3ba8-480b-9ff5-37d60934569a
+2024-12-03T02:27:10.447Z [info]: SCENARIO::: Validate all the fields exist in pop up680a4530-c728-4384-ae89-cb3483e95b13
+2024-12-03T02:27:13.736Z [info]: SCENARIO::: Validate all the fields exist in pop upbe820b48-9cbc-4479-9bb6-823e498ba297
+2024-12-03T02:27:16.970Z [info]: SCENARIO::: Validate all the fields exist in pop upfaba9e43-47a9-4d9c-91e3-545965899d15
+2024-12-03T02:27:20.602Z [info]: SCENARIO::: Validate the admin lands on the manage batch pagea348993a-8403-4412-85e7-7fb31d8ca24f
+2024-12-03T02:27:21.282Z [info]: SCENARIO::: Validate all the fields exist in pop up73061f24-9eda-46e1-9199-6565800f6618

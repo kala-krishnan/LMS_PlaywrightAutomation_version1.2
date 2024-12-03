@@ -1,0 +1,5 @@
+BatchDesc,Status,NoofClasses,ErrorMessage
+,Active,12,Batch Description is required.
+Developer,Active,,Number of classes is required.
+12####,Active,12,This field should start with an alphabet and min 2 character.
+Developer,Active,12,batch Updated

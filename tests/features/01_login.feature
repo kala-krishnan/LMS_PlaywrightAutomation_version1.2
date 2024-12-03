@@ -1,4 +1,4 @@
-
+@login
 Feature: Login Feature
 
 Scenario: Login Page verification

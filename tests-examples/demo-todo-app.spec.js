@@ -447,3 +447,30 @@ async function checkTodosInLocalStorage(page, title) {
     return JSON.parse(localStorage['react-todos']).map(i => i.title).includes(t);
   }, title);
 }
+
+
+await page.goto('https://playwright-frontend-app-a9ea85794ad9.herokuapp.com/login');
+await page.locator('div').filter({ hasText: 'User *' }).nth(3).click();
+await page.getByLabel('User *').click({
+    button: 'right'
+  });
+  await page.getByRole('button', { name: 'Program' }).click();
+  await page.locator('.cdk-overlay-backdrop').click();
+  await page.getByRole('button', { name: 'Program' }).click();
+  await page.getByRole('menuitem', { name: 'Add New Program' }).click();
+  await page.getByRole('button', { name: '' }).click();
+await page.getByLabel('User *').fill('https://playwright-frontend-app-a9ea85794ad9.herokuapp.com/loginlaywright');
+await page.getByLabel('User *').press('ControlOrMeta+a');
+await page.getByLabel('User *').fill('playwrightuser@gmail.com');
+await page.getByLabel('User *').press('Tab');
+await page.getByLabel('Password *').fill('Playwright@1234');
+await page.getByRole('button', { name: 'Login' }).click();
+
+await page.getByRole('button', { name: 'Program' }).click();
+await page.locator('.cdk-overlay-backdrop').click();
+await page.getByText('Manage Program').click();
+await page.getByText('Manage Program').click({
+    button: 'right'
+  });
+await page.getByText('Manage Program').click();
+

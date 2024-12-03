@@ -1,6 +1,6 @@
 const {loginPage} = require("./loginPages");
 const{batchPage} = require("./batchPages");
-//const{CommonUtils} = require("../Utils/CommonUtils.js")
+const{programPage} = require("./ProgramPages");
  
 
 class POManager{
@@ -10,7 +10,6 @@ class POManager{
         this.page = page;
        this.loginPage = null;;
        this.batchPage = null;;
-    
        
     }
     getLoginPage()
@@ -29,13 +28,13 @@ class POManager{
             }
         return this.batchPage;
     }
-    /*getCommonUtilsObj()
+    getProgramPage()
     {
-        if(!this.commonUtils)
+        if(!this.programPage)
             {
-                this.commonUtils=new CommonUtils(this.page);
+                this.programPage=new programPage(this.page);
             }
-        return this.commonUtils;
-    }*/
-} 
+        return this.programPage;
+    }
+}
 module.exports={POManager};

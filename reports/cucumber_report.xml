@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="110.218" tests="28" skipped="0" failures="3" errors="0">
+  <testcase classname="Login Feature" name="Login Page verification" time="2.344">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Navigation -Verify that Admin is able to navigate to Program module" time="0.952">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given The Admin is on dashboard page after Login............................passed
+When The Admin clicks "Program" on the navigation bar.......................passed
+Then The Admin should be navigated to Program module........................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="MenuBar - Verify the buttons on the menu bar" time="0.791">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given The Admin is on dashboard page after Login............................passed
+When The Admin clicks "Program" on the navigation bar.......................passed
+Then Admin should see Logout in menu bar....................................passed
+Then Admin should see the module names as in order..........................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program Page validation - Verify all the elements present in the Manage Program Page" time="0.967">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given The Admin is on dashboard page after Login............................passed
+When The Admin clicks "Program" on the navigation bar.......................passed
+Then The Admin validates all the elements present in the Manage Program Page..passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program - #1.1" time="5.951">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When Admin clicks on New Program under the Program menu bar.................passed
+Then Admin should see window titled "Program Details".......................passed
+When Admin enters "ProB","program for beginner level" and status and clicks on Save button for functionality "Valid"..passed
+Then The program "ProB" is saved successfully...............................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program - #1.2" time="5.892">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When Admin clicks on New Program under the Program menu bar.................passed
+Then Admin should see window titled "Program Details".......................passed
+When Admin enters "z","Program Description" and status and clicks on Save button for functionality "Invalid-ProgName"..passed
+Then The program "z" is saved successfully..................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program - #1.3" time="5.989">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When Admin clicks on New Program under the Program menu bar.................passed
+Then Admin should see window titled "Program Details".......................passed
+When Admin enters "ProgramPP","z" and status and clicks on Save button for functionality "Invalid-ProgDesc"..passed
+Then The program "ProgramPP" is saved successfully..........................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify add New Program - #1.4" time="5.699">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When Admin clicks on New Program under the Program menu bar.................passed
+Then Admin should see window titled "Program Details".......................passed
+When Admin enters "ProB","dd" and status and clicks on Save button for functionality "Invalid-already available"..passed
+Then The program "ProB" is saved successfully...............................passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Verify Edit Program - #1.1" time="5.901">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[    at Timeout.<anonymous> (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/node_modules/@cucumber/cucumber/lib/time.js:54:20)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When Admin edits "ProB","Edited ProgrammeA","edited ProgrammeF for beginner level" and status and clicks on Save button for functionality "Valid"..failed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program - Delete Program Validations - #1.1" time="10">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When The Admin searches for a program "ProB"................................passed
+Then The Admin does the validations in delete program functionality "Admin clicks on No button"..passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program - Delete Program Validations - #1.2" time="10.165">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When The Admin searches for a program "ProB"................................passed
+Then The Admin does the validations in delete program functionality "Admin Click on X button"..passed]]></system-out>
+  </testcase>
+  <testcase classname="Program Feature" name="Manage Program - Delete Program Validations - #1.3" time="7.069">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Given Admin is on Program module............................................passed
+When The Admin searches for a program "ProB"................................passed
+Then The Admin does the validations in delete program functionality "Admin succesfully deletes the program"..passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Validate all the fields exist in pop up" time="1.207">
+    <failure type="Error" message="[2mexpect([22m[31mreceived[39m[2m).[22mtoMatch[2m([22m[32mexpected[39m[2m)[22m&#xA;&#xA;[1mMatcher error[22m: [31mreceived[39m value must be a string&#xA;&#xA;Received has type:  object&#xA;Received has value: [31m{&quot;_frame&quot;: {&quot;_guid&quot;: &quot;frame@8d92134efa7424c4f1f523a1006ce1e1&quot;, &quot;_type&quot;: &quot;Frame&quot;}, &quot;_selector&quot;: &quot;//span[@id='pr_id_2-label']&quot;}[39m"><![CDATA[    at Proxy.<anonymous> (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/node_modules/playwright/lib/matchers/expect.js:227:37)
+    at batchPage.getAddBatchPageTitleName (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/tests/page_Objects/batchPages.js:55:55)
+    at async AllureCucumberWorld.<anonymous> (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/tests/features/steps_definitions/BatchSteps.js:27:5)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+Then Admin should see the Batch Details pop up window.......................failed
+Then the popup should display the following fields:.........................skipped
+Then Validate batch name prefix box is not editable.........................skipped]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.1" time="2.022">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "", "1267","Developer","Active","12" and click save button..passed
+Then Admin should a message "Program Name is required.".....................passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.2" time="2.629">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "DataAnalyst", "","Developer","Active","12" and click save button..passed
+Then Admin should a message "Batch Name is required.".......................passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.3" time="2.616">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "DataAnalyst", "1267","","Active","12" and click save button..passed
+Then Admin should a message "Batch Description is required."................passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.4" time="2.783">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "DataAnalyst", "1267","Developer","Active","" and click save button..passed
+Then Admin should a message "Number of classes is required."................passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.5" time="2.689">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "DataAnalyst", "#$#$","Developer","Active","12" and click save button..passed
+Then Admin should a message "This field accept only numbers and max 5 count."..passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.6" time="2.584">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "DataAnalyst", "1267","12####","Active","12" and click save button..passed
+Then Admin should a message "This field should start with an alphabet and min 2 character."..passed]]></system-out>
+  </testcase>
+  <testcase classname="Add Batch Feature" name="Verify Admin Navigate to Batch Page successfully - #1.7" time="2.935">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When Admin clicks on "Add New batch" under the "batch" menu bar.............passed
+When Admin enters "DataAnalyst", "1267","Developer","Active","12" and click save button..passed
+Then Admin should a message "Batch Created Successfully"....................passed]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate the admin lands on the manage batch page" time="0.877">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+Then Admin should be in the Manage Batch Page...............................passed]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up" time="3.992">
+    <failure type="Error" message="[2mexpect([22m[31mreceived[39m[2m).[22mtoMatch[2m([22m[32mexpected[39m[2m)[22m&#xA;&#xA;[1mMatcher error[22m: [31mreceived[39m value must be a string&#xA;&#xA;Received has type:  object&#xA;Received has value: [31m{&quot;_frame&quot;: {&quot;_guid&quot;: &quot;frame@8d92134efa7424c4f1f523a1006ce1e1&quot;, &quot;_type&quot;: &quot;Frame&quot;}, &quot;_selector&quot;: &quot;//span[@id='pr_id_229-label']&quot;}[39m"><![CDATA[    at Proxy.<anonymous> (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/node_modules/playwright/lib/matchers/expect.js:227:37)
+    at batchPage.getEditBatchDetailsTitle (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/tests/page_Objects/batchPages.js:116:56)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:449:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async AllureCucumberWorld.<anonymous> (/Users/krishna/Playwright-GIt/LMS_PlaywrightAutomation_version1.2/tests/features/steps_definitions/BatchSteps.js:63:5)]]></failure>
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When the admin able to click edit button for the batchName..................passed
+Then the admin should see the pop up window for edit Batch..................failed
+Then the program name and batch name should be in non-editable mode.........skipped]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up - #1.1" time="3.418">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When the admin able to click edit button for the batchName..................passed
+When the admin enters "","Active","12" and click Save button in Batch module..passed
+Then the admin should see the error message "Batch Description is required."..passed]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up - #1.2" time="3.288">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When the admin able to click edit button for the batchName..................passed
+When the admin enters "Developer","Active","" and click Save button in Batch module..passed
+Then the admin should see the error message "Number of classes is required."..passed]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up - #1.3" time="3.229">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When the admin able to click edit button for the batchName..................passed
+When the admin enters "12####","Active","12" and click Save button in Batch module..passed
+Then the admin should see the error message "This field should start with an alphabet and min 2 character."..passed]]></system-out>
+  </testcase>
+  <testcase classname="Edit Batch Feature" name="Validate all the fields exist in pop up - #1.4" time="3.635">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When the admin able to click edit button for the batchName..................passed
+When the admin enters "Developer","Active","12" and click Save button in Batch module..passed
+Then the admin should see the error message "batch Updated".................passed]]></system-out>
+  </testcase>
+  <testcase classname="Delete Batch Feature" name="Validate the admin lands on the manage batch page" time="0.678">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+Then Admin should be in the Manage Batch Page...............................passed]]></system-out>
+  </testcase>
+  <testcase classname="Delete Batch Feature" name="Validate all the fields exist in pop up" time="5.236">
+    <system-out><![CDATA[Given the user is in Login Page.............................................passed
+When the user enters the username "playwrightuser@gmail.com" and "Playwright@1234"..passed
+Then the user navigates to the Dashboard page and get the title for verification..passed
+Given Admin is on the Dashboard page........................................passed
+When Admin clicks Batch on the Menu from the header.........................passed
+When the admin able to click Delete button for the batchName................passed
+Then the batch needs to be deleted..........................................passed]]></system-out>
+  </testcase>
+</testsuite>
